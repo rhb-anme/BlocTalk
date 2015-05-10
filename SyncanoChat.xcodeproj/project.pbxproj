@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5D068C01AFFD9D3003A96CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D068BF1AFFD9D3003A96CB /* AppDelegate.swift */; };
+		F5D068C31AFFD9D3003A96CB /* SyncanoChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5D068C11AFFD9D3003A96CB /* SyncanoChat.xcdatamodeld */; };
+		F5D068C51AFFD9D3003A96CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D068C41AFFD9D3003A96CB /* ViewController.swift */; };
+		F5D068C81AFFD9D3003A96CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D068C61AFFD9D3003A96CB /* Main.storyboard */; };
+		F5D068CA1AFFD9D3003A96CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D068C91AFFD9D3003A96CB /* Images.xcassets */; };
+		F5D068CD1AFFD9D3003A96CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D068CB1AFFD9D3003A96CB /* LaunchScreen.xib */; };
+		F5D068D91AFFD9D3003A96CB /* SyncanoChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D068D81AFFD9D3003A96CB /* SyncanoChatTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D068D31AFFD9D3003A96CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D068B21AFFD9D2003A96CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D068B91AFFD9D2003A96CB;
+			remoteInfo = SyncanoChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5D068BA1AFFD9D2003A96CB /* SyncanoChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncanoChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D068BE1AFFD9D3003A96CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D068BF1AFFD9D3003A96CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5D068C21AFFD9D3003A96CB /* SyncanoChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SyncanoChat.xcdatamodel; sourceTree = "<group>"; };
+		F5D068C41AFFD9D3003A96CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5D068C71AFFD9D3003A96CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5D068C91AFFD9D3003A96CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5D068CC1AFFD9D3003A96CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F5D068D21AFFD9D3003A96CB /* SyncanoChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncanoChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D068D71AFFD9D3003A96CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D068D81AFFD9D3003A96CB /* SyncanoChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncanoChatTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D068B71AFFD9D2003A96CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D068CF1AFFD9D3003A96CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5D068B11AFFD9D2003A96CB = {
+			isa = PBXGroup;
+			children = (
+				F5D068BC1AFFD9D2003A96CB /* SyncanoChat */,
+				F5D068D51AFFD9D3003A96CB /* SyncanoChatTests */,
+				F5D068BB1AFFD9D2003A96CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D068BB1AFFD9D2003A96CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D068BA1AFFD9D2003A96CB /* SyncanoChat.app */,
+				F5D068D21AFFD9D3003A96CB /* SyncanoChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D068BC1AFFD9D2003A96CB /* SyncanoChat */ = {
+			isa = PBXGroup;
+			children = (
+				F5D068BF1AFFD9D3003A96CB /* AppDelegate.swift */,
+				F5D068C41AFFD9D3003A96CB /* ViewController.swift */,
+				F5D068C61AFFD9D3003A96CB /* Main.storyboard */,
+				F5D068C91AFFD9D3003A96CB /* Images.xcassets */,
+				F5D068CB1AFFD9D3003A96CB /* LaunchScreen.xib */,
+				F5D068C11AFFD9D3003A96CB /* SyncanoChat.xcdatamodeld */,
+				F5D068BD1AFFD9D2003A96CB /* Supporting Files */,
+			);
+			path = SyncanoChat;
+			sourceTree = "<group>";
+		};
+		F5D068BD1AFFD9D2003A96CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5D068BE1AFFD9D3003A96CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D068D51AFFD9D3003A96CB /* SyncanoChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D068D81AFFD9D3003A96CB /* SyncanoChatTests.swift */,
+				F5D068D61AFFD9D3003A96CB /* Supporting Files */,
+			);
+			path = SyncanoChatTests;
+			sourceTree = "<group>";
+		};
+		F5D068D61AFFD9D3003A96CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5D068D71AFFD9D3003A96CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D068B91AFFD9D2003A96CB /* SyncanoChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D068DC1AFFD9D3003A96CB /* Build configuration list for PBXNativeTarget "SyncanoChat" */;
+			buildPhases = (
+				F5D068B61AFFD9D2003A96CB /* Sources */,
+				F5D068B71AFFD9D2003A96CB /* Frameworks */,
+				F5D068B81AFFD9D2003A96CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyncanoChat;
+			productName = SyncanoChat;
+			productReference = F5D068BA1AFFD9D2003A96CB /* SyncanoChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5D068D11AFFD9D3003A96CB /* SyncanoChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D068DF1AFFD9D3003A96CB /* Build configuration list for PBXNativeTarget "SyncanoChatTests" */;
+			buildPhases = (
+				F5D068CE1AFFD9D3003A96CB /* Sources */,
+				F5D068CF1AFFD9D3003A96CB /* Frameworks */,
+				F5D068D01AFFD9D3003A96CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D068D41AFFD9D3003A96CB /* PBXTargetDependency */,
+			);
+			name = SyncanoChatTests;
+			productName = SyncanoChatTests;
+			productReference = F5D068D21AFFD9D3003A96CB /* SyncanoChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D068B21AFFD9D2003A96CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = artchiteq;
+				TargetAttributes = {
+					F5D068B91AFFD9D2003A96CB = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F5D068D11AFFD9D3003A96CB = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F5D068B91AFFD9D2003A96CB;
+					};
+				};
+			};
+			buildConfigurationList = F5D068B51AFFD9D2003A96CB /* Build configuration list for PBXProject "SyncanoChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5D068B11AFFD9D2003A96CB;
+			productRefGroup = F5D068BB1AFFD9D2003A96CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D068B91AFFD9D2003A96CB /* SyncanoChat */,
+				F5D068D11AFFD9D3003A96CB /* SyncanoChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D068B81AFFD9D2003A96CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D068C81AFFD9D3003A96CB /* Main.storyboard in Resources */,
+				F5D068CD1AFFD9D3003A96CB /* LaunchScreen.xib in Resources */,
+				F5D068CA1AFFD9D3003A96CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D068D01AFFD9D3003A96CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D068B61AFFD9D2003A96CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D068C51AFFD9D3003A96CB /* ViewController.swift in Sources */,
+				F5D068C01AFFD9D3003A96CB /* AppDelegate.swift in Sources */,
+				F5D068C31AFFD9D3003A96CB /* SyncanoChat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D068CE1AFFD9D3003A96CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D068D91AFFD9D3003A96CB /* SyncanoChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5D068D41AFFD9D3003A96CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D068B91AFFD9D2003A96CB /* SyncanoChat */;
+			targetProxy = F5D068D31AFFD9D3003A96CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5D068C61AFFD9D3003A96CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D068C71AFFD9D3003A96CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5D068CB1AFFD9D3003A96CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D068CC1AFFD9D3003A96CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5D068DA1AFFD9D3003A96CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5D068DB1AFFD9D3003A96CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5D068DD1AFFD9D3003A96CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SyncanoChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5D068DE1AFFD9D3003A96CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SyncanoChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5D068E01AFFD9D3003A96CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SyncanoChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyncanoChat.app/SyncanoChat";
+			};
+			name = Debug;
+		};
+		F5D068E11AFFD9D3003A96CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SyncanoChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyncanoChat.app/SyncanoChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D068B51AFFD9D2003A96CB /* Build configuration list for PBXProject "SyncanoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D068DA1AFFD9D3003A96CB /* Debug */,
+				F5D068DB1AFFD9D3003A96CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D068DC1AFFD9D3003A96CB /* Build configuration list for PBXNativeTarget "SyncanoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D068DD1AFFD9D3003A96CB /* Debug */,
+				F5D068DE1AFFD9D3003A96CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5D068DF1AFFD9D3003A96CB /* Build configuration list for PBXNativeTarget "SyncanoChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D068E01AFFD9D3003A96CB /* Debug */,
+				F5D068E11AFFD9D3003A96CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5D068C11AFFD9D3003A96CB /* SyncanoChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5D068C21AFFD9D3003A96CB /* SyncanoChat.xcdatamodel */,
+			);
+			currentVersion = F5D068C21AFFD9D3003A96CB /* SyncanoChat.xcdatamodel */;
+			path = SyncanoChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5D068B21AFFD9D2003A96CB /* Project object */;
+}
