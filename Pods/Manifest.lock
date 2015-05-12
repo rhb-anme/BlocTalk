@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (2.3.1):
+    - AFNetworking/NSURLConnection (= 2.3.1)
+    - AFNetworking/NSURLSession (= 2.3.1)
+    - AFNetworking/Reachability (= 2.3.1)
+    - AFNetworking/Security (= 2.3.1)
+    - AFNetworking/Serialization (= 2.3.1)
+    - AFNetworking/UIKit (= 2.3.1)
+  - AFNetworking/NSURLConnection (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.3.1)
+  - AFNetworking/Security (2.3.1)
+  - AFNetworking/Serialization (2.3.1)
+  - AFNetworking/UIKit (2.3.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.3.5)
+  - JSQMessagesViewController (7.0.2):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - Mantle (1.4.1):
+    - Mantle/extobjc (= 1.4.1)
+  - Mantle/extobjc (1.4.1)
+  - syncano-ios (3.1.32):
+    - AFNetworking (~> 2.3.0)
+    - CocoaAsyncSocket (~> 7.3.0)
+    - Mantle (~> 1.4.1)
+
+DEPENDENCIES:
+  - JSQMessagesViewController
+  - syncano-ios
+
+SPEC CHECKSUMS:
+  AFNetworking: 05b9f6e3aa5ac45bc383b4bb108ef338080a26c7
+  CocoaAsyncSocket: 94c582a5bef4bb0f51b6ebf3e1b561d9091a68ba
+  JSQMessagesViewController: bb6649691182b1899dc52b42266ad69efc473510
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  Mantle: 3219c0181d918508689af61c77891b12dbb28215
+  syncano-ios: ca7ab020922bb9e1eb7e0376cf4310ebb0b302ba
+
+COCOAPODS: 0.37.1

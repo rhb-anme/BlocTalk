@@ -1,0 +1,2180 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007091E3AB07B6BAB60055B9 /* JSQMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C7D1ADA20736DB1D1FB6DA /* JSQMediaItem.m */; };
+		011B573784D1291249277162 /* Pods-SyncanoChat-Mantle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37349F6F5744697F21120B26 /* Pods-SyncanoChat-Mantle-dummy.m */; };
+		01B9F832BB08318DA7C7068D /* JSQSystemSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CBBCB6C52713E6D2BEC3C8 /* JSQSystemSoundPlayer.m */; };
+		01E638977DE14EDF1AEDF153 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36184A5301B94947CBB1E323 /* AFURLConnectionOperation.m */; };
+		01F5949DF5BF969BE4BA8DEF /* JSQMessagesTimestampFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FEACCCD31997930313FA0A7 /* JSQMessagesTimestampFormatter.h */; };
+		025A196FC8F14B9DF11CE67E /* JSQMessagesBubbleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E598996AE2A1731FADCE01 /* JSQMessagesBubbleImage.h */; };
+		03EABC6CDA724D7814B03BE4 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A31D65E7E3A4B36A2F36456 /* UIImageView+AFNetworking.h */; };
+		04EC8952C1FA1F709545A9A5 /* SyncanoResponse_Folders.h in Headers */ = {isa = PBXBuildFile; fileRef = 3962E77E49448857FA264A1E /* SyncanoResponse_Folders.h */; };
+		0620D44B87BCA09B5B17318F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B72380CCDEF89AE6FD25C7 /* CoreGraphics.framework */; };
+		0662A858DF169A644D66FA6F /* SyncanoParameters_Projects.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA6918EE64ED49AA823665 /* SyncanoParameters_Projects.m */; };
+		0781EEA9D89AF114208A8F8E /* SyncanoParametersListing.h in Headers */ = {isa = PBXBuildFile; fileRef = 84488D63EFA47E3BC58C17EA /* SyncanoParametersListing.h */; };
+		07C79919E21DAD71F01478F6 /* NSDictionary+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA59F407D1E0BFA5182B115 /* NSDictionary+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0826627AF02D77B1E5E6B186 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FA5D1909BCE58F4839704 /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		09362DF3F000E00E163D4382 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A4FE247D84656B474EE3D4 /* SystemConfiguration.framework */; };
+		0959FC44D6CF063054B18F98 /* SyncanoResponse_Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 710009E3E5E7402B439D1787 /* SyncanoResponse_Notifications.m */; };
+		0C30FD52E14606CEAA322BDB /* JSQMessagesInputToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A689CD1B32B9B64F78D735 /* JSQMessagesInputToolbar.m */; };
+		0C607E6877E4FFB54BBBA9D7 /* JSQMessagesLoadEarlierHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD86B7B873E3376F9508CA8F /* JSQMessagesLoadEarlierHeaderView.h */; };
+		0CC4D46904FCBA03E7F3FD74 /* JSQMessagesCollectionViewCellOutgoing.h in Headers */ = {isa = PBXBuildFile; fileRef = CF585B05C156C33DEB6900FF /* JSQMessagesCollectionViewCellOutgoing.h */; };
+		0D66093E85A9E32B6944A8B1 /* SyncanoResponse_Subscriptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E20628A881E468BF253784E /* SyncanoResponse_Subscriptions.h */; };
+		0D9FB93699961014EDE30593 /* SyncanoParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D9AAD3E487357899CB1CC3 /* SyncanoParameters.h */; };
+		0F2DF8DA8331FC76C15A41BA /* JSQSystemSoundPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E893150CEEF9BD8C209175 /* JSQSystemSoundPlayer.h */; };
+		0FCA6383E2F0E510DC85097C /* SyncanoResponse_Users.h in Headers */ = {isa = PBXBuildFile; fileRef = CF59320DDA671CE5C467A5C0 /* SyncanoResponse_Users.h */; };
+		10CA151331EA32F41D9837A0 /* NSError+MTLModelException.h in Headers */ = {isa = PBXBuildFile; fileRef = 67738F5C1477B97FFCE5235C /* NSError+MTLModelException.h */; };
+		10FAF7D4B44FB929641B84EC /* JSQMessagesCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC9BAC33E62170FA1D8AF0B /* JSQMessagesCollectionViewCell.h */; };
+		11C44DBC7BF456801DCABEC9 /* UIView+JSQMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = C18F65BABD0694C49B0DA1FA /* UIView+JSQMessages.m */; };
+		11E42CDFCACD2D0F15EEA042 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 278CCE0521393BE0A617BA2A /* AFHTTPSessionManager.h */; };
+		14782DA73A3C86B9D047D988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB4E761A3BF95C2AFC6503 /* Foundation.framework */; };
+		14E8BB9A70E732E0FCAAF4EE /* JSQMessagesAvatarImageFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 051AFF58FC731A5ADD2BAD89 /* JSQMessagesAvatarImageFactory.h */; };
+		160ACDC7EAE51C58EF59D879 /* SyncanoProtocolRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B55F6CF89642D4F258885C7 /* SyncanoProtocolRequest.h */; };
+		17A543B8A67E19A596A28784 /* NSObject+MTLComparisonAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 915378EB87B9CFD2727BC401 /* NSObject+MTLComparisonAdditions.h */; };
+		17F6411727177BB6865465BC /* SyncanoResponse_Connections.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DB025561DC26BE06E98196 /* SyncanoResponse_Connections.m */; };
+		18FA49B01DF271E951F74E89 /* JSQMessagesAvatarImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F30C97D54661D38FAC07F927 /* JSQMessagesAvatarImage.m */; };
+		194A5AC5A63FA708F64DB17F /* JSQMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB89882D03C383B39E1D5C8 /* JSQMessagesViewController.m */; };
+		195055250F1FB883D93A5201 /* SyncanoParameters_Subscriptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2997913D003C76DB4FE28DAC /* SyncanoParameters_Subscriptions.h */; };
+		1AE3FAD816113EBE0E322CAF /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D89FC93F2F7801605FB3216 /* AFNetworking.h */; };
+		1CD7DBA3B2850671042951AE /* JSQMessagesKeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11ED6E17CC3CA93F1BEF937 /* JSQMessagesKeyboardController.m */; };
+		1E63043C43C6D5C18DF90B9B /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CF11CB52579BE2399E08379A /* UIProgressView+AFNetworking.m */; };
+		1EF22E95F3087F1DC806F7DB /* Mantle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F4F71222FA99B3725ABBFD0 /* Mantle.h */; };
+		1F93E44C4BF7FF9649DA16C1 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B73BFFBA0FF025F8D165DE /* EXTKeyPathCoding.h */; };
+		1FD584D64941F42F69811A1F /* JSQSystemSoundPlayer+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 7793824DBB91C466E438A56F /* JSQSystemSoundPlayer+JSQMessages.h */; };
+		2029CCC6A0ADDB02FB57CDEF /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F48160D7D4C6065C842E40 /* UIImageView+AFNetworking.m */; };
+		20D01A101D8C644D42060740 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4C8490CD17BA404A6007C4 /* UIKit.framework */; };
+		21709613EEF4C32913489AA6 /* SyncanoResponse_Collections.h in Headers */ = {isa = PBXBuildFile; fileRef = 7968E745A371AE1C3FAAA7DC /* SyncanoResponse_Collections.h */; };
+		21D4CEDF998D17F5C97057C6 /* JSQMessageAvatarImageDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4C36C4E3479676D88D503E /* JSQMessageAvatarImageDataSource.h */; };
+		241579E5B2FFE7E3A4680023 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9C0CBEE5E72401AE4AEC04 /* CFNetwork.framework */; };
+		253A6C2AEF04B9E204EB52F1 /* SyncanoParameters_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA9690D18C7F35B6D3C2710 /* SyncanoParameters_Private.h */; };
+		257006529C030526E3395EE3 /* SyncanoResponse_Folders.m in Sources */ = {isa = PBXBuildFile; fileRef = 72897DC138C1EBFB67133A95 /* SyncanoResponse_Folders.m */; };
+		275A6DAB101713E6DFED9B39 /* MTLModel+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B8684FF0155B09FF7B3FDF /* MTLModel+NSCoding.h */; };
+		27628AAA62E397321126B5D3 /* SyncanoResponse_PermissionRoles.h in Headers */ = {isa = PBXBuildFile; fileRef = 041BA713D52BC3B838174926 /* SyncanoResponse_PermissionRoles.h */; };
+		27645DAB4E4AF26FAAA27DAF /* JSQMessagesAvatarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A57EDB9A865895FE400A105 /* JSQMessagesAvatarImage.h */; };
+		287944A354EF6BDBEEBD73A3 /* syncano-ios-library-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = A0AD8F9E9F8119EAC65EEF4D /* syncano-ios-library-Prefix.pch */; };
+		29A656D14FD1EBF7EFF02B7F /* NSValueTransformer+MTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1695EE48FF7BBE3487D3FD /* NSValueTransformer+MTLInversionAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		29DC11B32ECD52533AC7ECF8 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D0E5B5D8BA339D377CF40E /* AFNetworkActivityIndicatorManager.h */; };
+		2AD1F6D660FB07B6398E1E48 /* AsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBAF629326345FB15BF66C8 /* AsyncUdpSocket.h */; };
+		2AE08AE368DDE864ACC68FAA /* SyncanoResponse_Subscriptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 485970F0D0180DCF609BBEDD /* SyncanoResponse_Subscriptions.m */; };
+		2B4480CC0D44E6972C893B7A /* Pods-SyncanoChat-JSQSystemSoundPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818FD53BD296B99615C9F33B /* Pods-SyncanoChat-JSQSystemSoundPlayer-dummy.m */; };
+		2C51577CFCE2AE9C4AAEBD64 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E173CF33E10C5E846656E2F /* EXTScope.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2CE6B9E2D89CC3EA1CF654A2 /* MTLManagedObjectAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = D8660F9115CFFD32084D6905 /* MTLManagedObjectAdapter.h */; };
+		2CEE91F1A42125C4DD5DE4F2 /* SyncanoParameters_DataObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C1E94074DF774185F94F6B /* SyncanoParameters_DataObjects.h */; };
+		2EB84138882F8D419A053FDF /* SyncanoSyncServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801313C06A2F39DFA0482FC /* SyncanoSyncServer.m */; };
+		2F331EDC6177C3B85843C97E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D876F767B860A56069533B /* AFURLSessionManager.m */; };
+		2F5D3A553830151A27EB65EA /* JSQMessagesKeyboardController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2875CB0634AE1709E6636320 /* JSQMessagesKeyboardController.h */; };
+		301067B86FA422C01B356377 /* JSQMessagesMediaViewBubbleImageMasker.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1732D6CCA25E67A6A6D590 /* JSQMessagesMediaViewBubbleImageMasker.h */; };
+		318C48A6C05F766CA1D345EC /* SyncanoObjects_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D6414481124F2E53649700FD /* SyncanoObjects_Private.h */; };
+		34139536F962B1F4D4BEDE30 /* SyncanoObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = D029D0D2FBA8CAF8919563A3 /* SyncanoObjects.h */; };
+		344460F752106D1947A1FEB5 /* JSQMessagesComposerTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB255BF092263650866C9E53 /* JSQMessagesComposerTextView.m */; };
+		35B3A1EBB679FE98D4DCE9AD /* Syncano.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F4BC550D4549D293A47446 /* Syncano.m */; };
+		35D16B8EA36F4C00501610AB /* SyncanoProtocolCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB7DDA922FF8C06CF4BE277 /* SyncanoProtocolCollections.h */; };
+		36C53B13E0766D3F01E8657C /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 145F9F100DB3AC89C7EF6DF7 /* AFURLSessionManager.h */; };
+		374798CEB0BE8CDD9722B96B /* JSQMessagesComposerTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B70301796CE17E13DB3E8E2 /* JSQMessagesComposerTextView.h */; };
+		37D32644CB25D1F6E2D2A941 /* JSQMessagesTypingIndicatorFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A830EF98A75D003F0E0CA2 /* JSQMessagesTypingIndicatorFooterView.h */; };
+		37E320399F8FB28AF1EAA9ED /* SyncanoProtocolFolders.h in Headers */ = {isa = PBXBuildFile; fileRef = 8271035D2754DA8E5B9BD817 /* SyncanoProtocolFolders.h */; };
+		380F14B513FB962D0FFECE5F /* JSQMessagesLoadEarlierHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559BE2B075D44D7B34D75A19 /* JSQMessagesLoadEarlierHeaderView.m */; };
+		38DEBBD8B693E1750506FCB6 /* JSQMessagesCollectionViewCellIncoming.h in Headers */ = {isa = PBXBuildFile; fileRef = 8909CC31A6E373B32431217D /* JSQMessagesCollectionViewCellIncoming.h */; };
+		39124BF435FA3AFC454916F6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45669D0E7A924B1D16ABE847 /* MobileCoreServices.framework */; };
+		39778D771D059CC948D24A68 /* JSQMessagesCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F4DB282D9C07900DAF6150 /* JSQMessagesCollectionView.m */; };
+		3ADE87FE8187FA0EDD8BB04C /* JSQMessagesTimestampFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7966E988E62FFB2A6F4A93 /* JSQMessagesTimestampFormatter.m */; };
+		3B42044885C715B720B6F67E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB4E761A3BF95C2AFC6503 /* Foundation.framework */; };
+		3B5AE15DA506D8D3D02F6490 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1205CB94014BAFD0EC329A14 /* AFHTTPRequestOperation.h */; };
+		3D6DEF740EADF5CC0AA376EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB4E761A3BF95C2AFC6503 /* Foundation.framework */; };
+		3DF64256D23F305B00B7BE5F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 719058CC178E1D42CBBF6F7E /* UIActivityIndicatorView+AFNetworking.h */; };
+		3E115053A8B6CF134B20B12C /* JSQMessagesBubbleImageFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C93F24D97307AC10E241B9BF /* JSQMessagesBubbleImageFactory.h */; };
+		3E43FD67FC3607537DA4EF64 /* SyncanoParameters_Subscriptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2144FBD91DEC3E1E833DFF05 /* SyncanoParameters_Subscriptions.m */; };
+		41AD78B70F03B5863EF72F50 /* UIColor+JSQMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = B72FD2A0434B880C2307EBFF /* UIColor+JSQMessages.m */; };
+		42569B0BF20988E4844C5E9D /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A232718FBEE6E17629948B4F /* AFURLResponseSerialization.h */; };
+		4285A4FF87F591909EDD72F4 /* JSQMessagesLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF7FC9F0008FE42C26880B5 /* JSQMessagesLabel.m */; };
+		432BC7C4E1557AC4301097FA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A79E51E4AB4E0B733619F0A /* GCDAsyncSocket.h */; };
+		4507589B519C75EE161F8D8F /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 67519D7080A7D5CCF9847655 /* UIRefreshControl+AFNetworking.m */; };
+		47E9523F62F7C2BF4CA68543 /* UIView+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 471DD5665E0B34B7C8E11315 /* UIView+JSQMessages.h */; };
+		4871885528411DE2B2E3F0B7 /* JSQMessagesCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 920EB3449513737359E85F19 /* JSQMessagesCollectionViewFlowLayout.h */; };
+		48BD53C22536DF00C3D0290C /* SyncanoParameters_Connections.m in Sources */ = {isa = PBXBuildFile; fileRef = 123A83F80C8F82CA224DA777 /* SyncanoParameters_Connections.m */; };
+		4911E5E466D9265230BB8BA9 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 746793384B24C411CDD81EDF /* GCDAsyncUdpSocket.h */; };
+		492ABF728626A3F99D0F6D68 /* SyncanoResponse_Projects.h in Headers */ = {isa = PBXBuildFile; fileRef = F643B37DC8AA6D4D42B0BFF0 /* SyncanoResponse_Projects.h */; };
+		4B7F09A342B1DC630A7F127C /* UIDevice+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = F125402A2CF45F1604097F14 /* UIDevice+JSQMessages.h */; };
+		4D2E152E10A44D9927EBDB16 /* SyncanoResponse_Administrators.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FAAB926DD28E75BBD323161 /* SyncanoResponse_Administrators.h */; };
+		4D608BE74BD17CA0C750629C /* JSQPhotoMediaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 46061E6639C7E34387A5006C /* JSQPhotoMediaItem.h */; };
+		4F45B09130D5003346054A76 /* SyncanoResponse_Projects.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9D79CA754EFB547A163052 /* SyncanoResponse_Projects.m */; };
+		52649E0C17C60CA84A2A458D /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C899A7AF9AD70D5099EF111 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */; };
+		52EB70700200A033777D40AB /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 26025B653FEA64BDADFAE0D9 /* UIAlertView+AFNetworking.h */; };
+		53C313BDA9A42F552BB3F721 /* JSQMessagesCollectionViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6F8050946D03CC54AF722F /* JSQMessagesCollectionViewDataSource.h */; };
+		57FDECD5FD6497DB1C6DB9FF /* SyncanoResponse_Administrators.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F5561282E2CAA14799D456 /* SyncanoResponse_Administrators.m */; };
+		59016534887112035D07A1FB /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F6634403F20F73996B9F51 /* NSError+MTLModelException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5A3535A235A0953A666FCE90 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 13EB0E4E28626D913637E723 /* AFNetworkReachabilityManager.h */; };
+		5B6B8CB14886F6BBD8698820 /* JSQLocationMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AB277FC640579CC95930B3 /* JSQLocationMediaItem.m */; };
+		5C7F2A3EC19DDF58C14F0BCB /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F93241D5888B3E9A88A7EB /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5CDD7D7C14A70F7D8A2FC258 /* JSQMessagesMediaPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A514014EDE0A3F91D14FD70C /* JSQMessagesMediaPlaceholderView.m */; };
+		6073295BC2C3BF2F5AF1CC03 /* NSDictionary+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = ECCDEA9526EC0E5AAE3B1A8A /* NSDictionary+MTLManipulationAdditions.h */; };
+		60A3D0CBA0B31CCED00D055B /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE33D4BCEAE696DCCAEDA87 /* UIActivityIndicatorView+AFNetworking.m */; };
+		65BE8D1C30607BAFE433E099 /* JSQMessagesBubbleImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4880C9F4FC146304F89A8494 /* JSQMessagesBubbleImageFactory.m */; };
+		65DA1DA93B6B46D06DB5B263 /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C602ACE2B8BE516295132 /* MTLJSONAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		65F2CC17D9D7C3E9872D9B5F /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 865C4F7BE93FE95C8033BB0C /* MTLReflection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		699BFDD68EA3A5400A8EBF90 /* SyncanoParameters_Projects.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DDA356F5AFB96F83BA9E902 /* SyncanoParameters_Projects.h */; };
+		6B76195B347207853CE3F707 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 13305D83433AA2295381AE4A /* UIWebView+AFNetworking.h */; };
+		6BDE875A9CEB4B48AAFB38E8 /* SyncanoParameters_Users.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D95CD125501BD7E16C1F14 /* SyncanoParameters_Users.h */; };
+		6E14BF673C67DF83CC305CB8 /* SyncanoResponse_PermissionRoles.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BEAD31129014AABC5D4D1C /* SyncanoResponse_PermissionRoles.m */; };
+		721E8ECE1EEA5C9487E1E2D8 /* JSQMessagesCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BD65F9CB0A7AC482B34AF4 /* JSQMessagesCollectionViewFlowLayout.m */; };
+		73A7AD0DF0D34A53A7AF1E84 /* JSQLocationMediaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6861EE349A3BC2988B8176EE /* JSQLocationMediaItem.h */; };
+		73D80C5100EB603CDD7FEAE5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B083D6168EB8D7F24108A7C /* Security.framework */; };
+		74F793090BEB36533BFDB460 /* SyncanoParameters_Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAE079BA62C53B77FB75FB1 /* SyncanoParameters_Notifications.m */; };
+		75EFB67333DF4EAF0945E1AD /* SyncanoObjects_Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F90E26E95C95780515CBE3E /* SyncanoObjects_Private.m */; };
+		76C848E6C040BCD3D0CEB59B /* MTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F68BA9B4E55E41CE5BAD724 /* MTLManagedObjectAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		796665A0CA331650CC59ED58 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5476F348F405B37F97C4CE /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.h */; };
+		79B018F45A868B0D6DCA2658 /* Pods-SyncanoChat-CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CF7911B8C722C56136E55F /* Pods-SyncanoChat-CocoaAsyncSocket-dummy.m */; };
+		7A059BF7795221562BD0E4F3 /* JSQMessagesCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC443AD8AC78F34BB8F3079 /* JSQMessagesCollectionViewLayoutAttributes.m */; };
+		7A754747BCD4B714FC15870A /* JSQMessagesCollectionViewCellOutgoing.m in Sources */ = {isa = PBXBuildFile; fileRef = A088705EADE2345E9B5938B1 /* JSQMessagesCollectionViewCellOutgoing.m */; };
+		7AEDF1C97E0BA0D0E7BDFCB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB4E761A3BF95C2AFC6503 /* Foundation.framework */; };
+		7B0DFB49E26B3C715A637261 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D25525C9D0F16796D18A657E /* UIWebView+AFNetworking.m */; };
+		7B27178BE86FB240B85942D6 /* JSQMessagesToolbarButtonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F65E04700C0402307AE4DEB /* JSQMessagesToolbarButtonFactory.m */; };
+		7C474BFE6D167E367CFE059B /* JSQMessagesCellTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4098F283BDBBFE158B74CD5A /* JSQMessagesCellTextView.m */; };
+		7CD844090FDC5D10D2AD3BCA /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB79A1307042C8973F6AFA0 /* AFHTTPSessionManager.m */; };
+		7D1E520DBE38989AB183EBC8 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = F8724EB746A6E432B80F9DD3 /* EXTScope.h */; };
+		7D6BCAEC81A0B546502AE86B /* SyncanoProtocolNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC7D767FA41C8908CA2063A /* SyncanoProtocolNotification.h */; };
+		7E6ABDBBAACBFF30394BFF4D /* JSQVideoMediaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 09DDF98E7A9D97CA90C20CC9 /* JSQVideoMediaItem.h */; };
+		80C07D0279B3C993533C2099 /* MTLReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = F01A9C1986BBF98363747DFF /* MTLReflection.h */; };
+		8297E05DD130CDA63C690BC6 /* JSQMessagesMediaViewBubbleImageMasker.m in Sources */ = {isa = PBXBuildFile; fileRef = 686F7A8D7B47DE6A6212014C /* JSQMessagesMediaViewBubbleImageMasker.m */; };
+		837DC086DBFFCB6B1D718E62 /* UIImage+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = EC519334146F5E2AFD148882 /* UIImage+JSQMessages.h */; };
+		851C975D4154D96898D0764D /* SyncanoProtocolAPIKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 768085018FF3AFE64C2307C7 /* SyncanoProtocolAPIKeys.h */; };
+		85577EE13D062813314BDFAE /* JSQPhotoMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA92631EDFBA361E6CC665 /* JSQPhotoMediaItem.m */; };
+		86153F65056167ABD32E5551 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9732F8656D7DF1351CD507D0 /* AFSecurityPolicy.m */; };
+		8761A4E7D9F91EEAF867691E /* JSQSystemSoundPlayer+JSQMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = FD120B88EA22E934B2845653 /* JSQSystemSoundPlayer+JSQMessages.m */; };
+		877DB603334B68AF3B39B9C0 /* SyncanoProtocolDataObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = E68F24CD767DFC0D1780C349 /* SyncanoProtocolDataObjects.h */; };
+		87B65D566A30F1E0A731D50F /* SyncanoParameters_PermissionRoles.h in Headers */ = {isa = PBXBuildFile; fileRef = 08EBD636D48B9B258E9F5A32 /* SyncanoParameters_PermissionRoles.h */; };
+		8D46B7DF3852EB9E53D0AC2F /* JSQMediaItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E39AA40BBBC2557CA4273A49 /* JSQMediaItem.h */; };
+		9076541EABB71B3BF11FA35F /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 673FCD3AD87079B2E5D92AA5 /* UIButton+AFNetworking.m */; };
+		91328C8A5327A82B8C28F1F2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BF7864026FE40ACA6ED988 /* CoreLocation.framework */; };
+		91B208ABD316C18ED0910455 /* SyncanoParameters_PermissionRoles.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F56AB834A3ED413A3737EE9 /* SyncanoParameters_PermissionRoles.m */; };
+		9293CF53B6EACD04768C7550 /* JSQMessageMediaData.h in Headers */ = {isa = PBXBuildFile; fileRef = A11B7C8BC206980EA97DB4CA /* JSQMessageMediaData.h */; };
+		9328B05CA96F8931F7A7303D /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 640D161BC3A65A355B4EA6B8 /* UIButton+AFNetworking.h */; };
+		934D26548987478FF262BDFC /* SyncanoResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0F423A4903F45D7798F0E1 /* SyncanoResponse.h */; };
+		946F3F78ABAF941573DFC798 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC223F793F5F29880E654C4 /* AFHTTPRequestOperation.m */; };
+		95D5A662E75016E9CCB0247C /* SyncanoParameters_Collections.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BDF1781F4DD3A3E1F340E6 /* SyncanoParameters_Collections.m */; };
+		96DEDA5BF18F6C4FDDF5E2EA /* SyncanoProtocolPermissionRoles.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E91ED24F7E83CA9719AE737 /* SyncanoProtocolPermissionRoles.h */; };
+		97C656041CA0F906E94A746C /* SyncanoParameters_Folders.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A01303318B1C787F3119767 /* SyncanoParameters_Folders.m */; };
+		9BEFAB1ED68B87E64A6F2227 /* JSQMessagesCollectionViewCellIncoming.m in Sources */ = {isa = PBXBuildFile; fileRef = 756C70DE315F1475894FF0D1 /* JSQMessagesCollectionViewCellIncoming.m */; };
+		9EEA3BEA6CB38168EB9CE894 /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E55069A6443C5615800CDBCE /* MTLModel+NSCoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9F234C8FEE259C1E88ECF2D2 /* SyncanoResponse_DataObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A0A19197F21ABAFE120F04 /* SyncanoResponse_DataObjects.m */; };
+		9FD0603E6106A211E1A0FD12 /* JSQMessagesAvatarImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FFB7F009192D7A748DD7E4 /* JSQMessagesAvatarImageFactory.m */; };
+		A009D1C2592C4DDDBEC8C7BF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B083D6168EB8D7F24108A7C /* Security.framework */; };
+		A24E8323C3AA53E801F1A938 /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E650C8C758AE04E8BD2FEE55 /* MTLModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A2DA621B44214E2611010888 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A074DE001B144E0D10D29AE /* UIKit+AFNetworking.h */; };
+		A3975ADF7CACC2CAD9347F7C /* Pods-SyncanoChat-syncano-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8744BDAEED5C298339713656 /* Pods-SyncanoChat-syncano-ios-dummy.m */; };
+		A4426C0E85E49C89181C01AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB4E761A3BF95C2AFC6503 /* Foundation.framework */; };
+		A45A02468CC7F48A701F69D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB4E761A3BF95C2AFC6503 /* Foundation.framework */; };
+		A549E2D7F1A3583FA3D257B8 /* JSQMessagesCollectionViewLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 010B73E70009583C95BE8D52 /* JSQMessagesCollectionViewLayoutAttributes.h */; };
+		A6319E8B614AF837BBB7DEB3 /* SyncanoParameters_Notifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FC7CB29A865A5816525CDC /* SyncanoParameters_Notifications.h */; };
+		A63D70B758A6BE991E8AA312 /* SyncanoDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D32EF15F9B1407EC694D9683 /* SyncanoDateFormatter.h */; };
+		A650659BDD7BFA9AB95D5FE8 /* JSQMessagesBubbleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D687E7AEA364713121C01F44 /* JSQMessagesBubbleImage.m */; };
+		A7B1E03069CA56E655F11D98 /* SyncanoReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DB783C6EF9F9D6A101B401 /* SyncanoReachability.m */; };
+		A7C9B905A8E111ECE8188E3E /* JSQMessagesCollectionViewDelegateFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 701C41F9130BED8820B1BAF8 /* JSQMessagesCollectionViewDelegateFlowLayout.h */; };
+		A8A9521C1D77F86204E0E3F3 /* SyncanoResponse_DataObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 5394458EFD6438ADDC09403F /* SyncanoResponse_DataObjects.h */; };
+		A9EA4757594518BE4A8DE0D3 /* JSQMessagesToolbarButtonFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 83FF81F90C2E688D7E7E0871 /* JSQMessagesToolbarButtonFactory.h */; };
+		AA48DB636EDAC4CF3E7CD0DC /* SyncanoReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DCA259547E2F569A56F9E5D /* SyncanoReachability.h */; };
+		AB403C2DBAEE72462C081FD4 /* SyncanoProtocolProjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 4955A33580E335D75FFC9752 /* SyncanoProtocolProjects.h */; };
+		ACA6590CA6F1AE592226C50E /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B3829ACA1D402FEAD224F819 /* AsyncSocket.h */; };
+		AD60DDB3F576324B94E319F6 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C8FEA332786CF1091687D2A3 /* AFHTTPRequestOperationManager.h */; };
+		ADAD61D2CA9A4AC53230DEEF /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 639F888274DA64996CD627E5 /* UIAlertView+AFNetworking.m */; };
+		ADD15C03FF7DFE477836D0A0 /* SyncanoDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF97BA5C1DC4E7E526AFFDB1 /* SyncanoDateFormatter.m */; };
+		AF23084C7B162E3FAAFCF9B8 /* NSObject+MTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B52CA8E7A917AC1B0510940 /* NSObject+MTLComparisonAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AFE722AD22FC07037ABACEA7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF5B3F9CB886282BA0D5B8D /* AFURLRequestSerialization.m */; };
+		B0729CFACFD02CFDA2E6CAFB /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F86EA048C6489B65690109 /* AFURLRequestSerialization.h */; };
+		B0A6D6639FF3ED765FE2C273 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B19FB18BF10F8496EAD8C01D /* AFURLConnectionOperation.h */; };
+		B29214C3A716C99357436C2A /* SyncanoParameters_Administrators.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D82CAD85426E68BCE3DAD11 /* SyncanoParameters_Administrators.m */; };
+		B2C6CF766CA73271CA6A034F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C22295C64C33E3057E9DBC /* MapKit.framework */; };
+		B2FCAC7BEEDAC452860BF20B /* SyncanoSyncServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8EB0E320B9F18206F5E68B /* SyncanoSyncServer.h */; };
+		B4756D9E0A3DC659A433A843 /* SyncanoResponsesListing.h in Headers */ = {isa = PBXBuildFile; fileRef = B763E164F0421CB93C1B388B /* SyncanoResponsesListing.h */; };
+		B594F8A497311C1657BB39AC /* JSQMessagesMediaPlaceholderView.h in Headers */ = {isa = PBXBuildFile; fileRef = B03277E2C898FC1CCB1DDB3F /* JSQMessagesMediaPlaceholderView.h */; };
+		B6756508733A5043CE05C3D3 /* JSQMessagesInputToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B7CC6F39D40C4BD4DCBB6B /* JSQMessagesInputToolbar.h */; };
+		B7DB847A77E96132C1A6DEC5 /* JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 06FF19A3CDC8E4D7F65D161F /* JSQMessages.h */; };
+		B92A7F428F8D5E2FA4C3D24F /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD8C22BBFBE28B94C5F000A /* AFURLResponseSerialization.m */; };
+		B994BFE727BE841FC6E327E0 /* SyncanoResponse_Connections.h in Headers */ = {isa = PBXBuildFile; fileRef = E821B2E25FF543E306BE7247 /* SyncanoResponse_Connections.h */; };
+		BBB43E64CA40A0FD82824BFD /* Pods-SyncanoChat-JSQMessagesViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A98B5127F902AC4B89B449B7 /* Pods-SyncanoChat-JSQMessagesViewController-dummy.m */; };
+		BCA0E0BA4EE2E877ED7F607C /* JSQMessageBubbleImageDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = E72EE0038CAA3D908D9ECBE5 /* JSQMessageBubbleImageDataSource.h */; };
+		BDF59004BB7D58780D7A2D52 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FE43C60C2CD55696415ED212 /* UIRefreshControl+AFNetworking.h */; };
+		BDFC44375DA289F6CCA3C6CA /* UIDevice+JSQMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EA66106FD18A603B88E6B0 /* UIDevice+JSQMessages.m */; };
+		BFACDECC9204D72C0965CB47 /* JSQMessagesLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 814443C9BABC8A011FB9A548 /* JSQMessagesLabel.h */; };
+		C358AECFBFE20E1057201B7A /* Syncano.h in Headers */ = {isa = PBXBuildFile; fileRef = 837DC0D9A01306115DFD098C /* Syncano.h */; };
+		C3860D5108E3C600BE8E0CB8 /* JSQMessagesCellTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A75159DAF164C0D3862422 /* JSQMessagesCellTextView.h */; };
+		C3C036DC402DC2E8BAC49A95 /* SyncanoParameters_Folders.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB16CD7B5084083490DD62F /* SyncanoParameters_Folders.h */; };
+		C3E051C22CDFD3BDE9B5B0BC /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = F21D202CB5E2D9CFB2DB4665 /* MTLValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C42B0454ED63CDC76A8AE42B /* JSQMessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6C8F5419B28E4DFBF9A2A4 /* JSQMessageData.h */; };
+		C52E1D41601B314157500FF1 /* MTLValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FD7D9C3EC6F6530F6F45B0 /* MTLValueTransformer.h */; };
+		C6AC14CE393976BD2B94DED9 /* SyncanoProtocolSubscriptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 60EB9B9ED48E8E9F16C1F830 /* SyncanoProtocolSubscriptions.h */; };
+		C74EC0C497FAE996E6C5CBCD /* NSArray+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A033C95EF2167FF90FB5FF6 /* NSArray+MTLManipulationAdditions.h */; };
+		C759A7E59E3EE419893D954C /* SyncanoProtocolUsers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0084D758EE40A1C9BBCCA685 /* SyncanoProtocolUsers.h */; };
+		CA0BCE1255DD990CE17CDAC4 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EAECDE5603A9E7EDA6AEAC /* AFNetworkActivityIndicatorManager.m */; };
+		CB09289671A33A99F9259891 /* JSQMessagesCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F10AF108B27F372771F59B /* JSQMessagesCollectionView.h */; };
+		CB33D145FCCAB99F781D48C2 /* SyncanoResponse_APIKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4BED3B7A96EC11FAD18D8C /* SyncanoResponse_APIKeys.m */; };
+		CBD58AA60B99C44E1DD82FDA /* JSQMessagesToolbarContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 296B9C631EB283700726DA0A /* JSQMessagesToolbarContentView.h */; };
+		CC18F9521C54D4106B0E39C7 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 401A38754C376533E8F5EB07 /* UIProgressView+AFNetworking.h */; };
+		CCED22968E61E4EB9AEE52BE /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B679C3CF7431BE0BDA3FE89 /* AFSecurityPolicy.h */; };
+		CE67E11E36B57D36D280FB58 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B681A4CA5B329878BA1572 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CEC3135CB03D98E3D0B9E595 /* NSBundle+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B568380692260F92005145 /* NSBundle+JSQMessages.h */; };
+		CFA837A5296E9DC8C2ABC71B /* SyncanoResponse_APIKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = E8AD98281E06222CC5191BF8 /* SyncanoResponse_APIKeys.h */; };
+		D05BE3F920750D39BF326517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB4E761A3BF95C2AFC6503 /* Foundation.framework */; };
+		D065FDACCA8057FC9E88CF57 /* SyncanoResponse_Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BB8EA3AB5E929EED692F9B /* SyncanoResponse_Users.m */; };
+		D0D5A09FEBFCB8BC6219F344 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B72380CCDEF89AE6FD25C7 /* CoreGraphics.framework */; };
+		D372BDA8D8C9DBB8B354E89F /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E134524F682D9C3AFB90B1A /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D504EF1D6E61249FF75E38B2 /* SyncanoParameters_Collections.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D310291983286F6361ED54 /* SyncanoParameters_Collections.h */; };
+		D5C773FDEF9C6D92CD3DD0D4 /* SyncanoProtocolAdministrators.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C024C5D944445BF963CF0C4 /* SyncanoProtocolAdministrators.h */; };
+		D60F3D38E8B61C789B1D5115 /* MTLModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA4DC60B52B2107EF411611 /* MTLModel.h */; };
+		D677D61CFBD76F3BE7A4BFD0 /* NSString+JSQMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DB54C896361FC7803298FF /* NSString+JSQMessages.m */; };
+		D7EEE8BD28F16FE536E0145D /* NSBundle+JSQMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8E8DDD7CFDC379C0436C47 /* NSBundle+JSQMessages.m */; };
+		D82838A2F2AA439401E80E7C /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AE48A6E7FDD1BA361667E859 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D871B336731D28E4708F5E28 /* SyncanoResponse_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED56E07CCBC4E76FA1212F7 /* SyncanoResponse_Private.h */; };
+		DA4325D9E6C3F043E376D97B /* SyncanoParameters_Administrators.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C8E65B870A628E23BE2D57 /* SyncanoParameters_Administrators.h */; };
+		DB9E156E0CC804B834972EF9 /* Syncano+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F86099D7FE07C5712D9C9F06 /* Syncano+Private.h */; };
+		DC7518752FC42EB3AA5E88F4 /* MTLJSONAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D350DDF71A98A5C92F87CBB /* MTLJSONAdapter.h */; };
+		DC9B902111EFFADCD187796E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188A3EBA881C1268271FF75D /* QuartzCore.framework */; };
+		DD344954490D464444A660A9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48CB9823F0EBE1568954CE7 /* AudioToolbox.framework */; };
+		DD4C86ED4CCD68A51F74A99B /* JSQMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 431A8AA72B6522D47F5FAB27 /* JSQMessage.h */; };
+		DD593CA9442548A70203D85F /* Pods-SyncanoChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B3A48FAFFD68135A8531CD /* Pods-SyncanoChat-dummy.m */; };
+		E0818055080F4679C8CB3FF0 /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3917BBC95D4C1C2D070323E4 /* NSArray+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E0C0F47B1C2FB289A39CF67D /* JSQMessagesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E301663C365C84D0689614D /* JSQMessagesCollectionViewCell.m */; };
+		E11394817C055709018A8969 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FAD505AD6AEBD3CC2E67EF /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E142F3A4D85160FC42B26C82 /* JSQMessagesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B2146FCAE84B1133F0F81D /* JSQMessagesViewController.h */; };
+		E281B13EE62BBD12697F5754 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B63AE2537A52793DEACCCF94 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.m */; };
+		E2E61E6BC01F3A8B236C5139 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C134F8CC1F16AA1BE092CEB4 /* metamacros.h */; };
+		E390FEE6560A3B95AE1AC9D7 /* SyncanoParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD3FF718A8123CAFCFA60A /* SyncanoParameters.m */; };
+		E3B59B0C05B0B228F136C821 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 583312D12A47AC17514969CC /* AFNetworkReachabilityManager.m */; };
+		E505D211993DB479FC77EF5C /* JSQVideoMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF443B1D6DCC51E4EEFD395 /* JSQVideoMediaItem.m */; };
+		EA1B84C941280369A23D531D /* SyncanoResponse_Notifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E948A460C298D150B2BC23 /* SyncanoResponse_Notifications.h */; };
+		EB23F5BBFA9C9A9885B84CA1 /* JSQMessagesTypingIndicatorFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A02D8829BEDC40B18C124A /* JSQMessagesTypingIndicatorFooterView.m */; };
+		EC03A5C296E1B838308DA122 /* JSQMessagesToolbarContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 769C89B501DDF8617C4C889A /* JSQMessagesToolbarContentView.m */; };
+		EC92ED1CEFCB80B002D68B06 /* SyncanoParameters_Connections.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CADED34B921915654CB5495 /* SyncanoParameters_Connections.h */; };
+		EF163BC8816DF6AE3F369A96 /* SyncanoProtocolsListing.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C3F23758320098A087B060 /* SyncanoProtocolsListing.h */; };
+		F113F84A6AAACB2EE1C9E707 /* UIColor+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DE28E21287077703606F86 /* UIColor+JSQMessages.h */; };
+		F27DB70DD9A6BBEA8F789B7F /* Pods-SyncanoChat-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6238DC02DC158E19021BFDD0 /* Pods-SyncanoChat-AFNetworking-dummy.m */; };
+		F373DC16B77681EF07020105 /* SyncanoResponse_Collections.m in Sources */ = {isa = PBXBuildFile; fileRef = A99945F9333525A1107181D9 /* SyncanoResponse_Collections.m */; };
+		F397F484D4D61C22A9E811F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD4C8490CD17BA404A6007C4 /* UIKit.framework */; };
+		F3CE33A5FC31F2783F01D20E /* SyncanoObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = E56532A3B3A7A805E0C0FD4D /* SyncanoObjects.m */; };
+		F447371CCD431116E00F8162 /* NSString+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A88BA258A2A73173ADC3AA9 /* NSString+JSQMessages.h */; };
+		F4DE5DEFEEB2824BE84E6066 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB17F1FE5AE779A492969A8E /* EXTRuntimeExtensions.h */; };
+		F53F9846EFE2AE58F1425469 /* JSQMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 50163F2DEB54EE394B02B22A /* JSQMessage.m */; };
+		F596B3B75E2F3750F62D2D55 /* SyncanoParameters_DataObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8721316C2FC4E53EB58E56 /* SyncanoParameters_DataObjects.m */; };
+		F6E5F3BDF3836D499895D73D /* SyncanoParameters_Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDFA745CAB59BDE7DA4F4D9 /* SyncanoParameters_Users.m */; };
+		F7865095206D6458DBD785E3 /* SyncanoParameters_APIKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6CE306326F0193A95BCF74 /* SyncanoParameters_APIKeys.h */; };
+		F7E747BD23E08F8DDB8E9570 /* SyncanoParameters_APIKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 7829841A7183EE095F5F0C92 /* SyncanoParameters_APIKeys.m */; };
+		FC5B61D2FCEAF101428779E2 /* NSValueTransformer+MTLInversionAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 467354BAA160D6A69E153155 /* NSValueTransformer+MTLInversionAdditions.h */; };
+		FD75E24044ED9F2DD25E837D /* SyncanoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C16E9DA35D1E4868A7888A /* SyncanoResponse.m */; };
+		FF508635F581ED8F58CFEB16 /* SyncanoProtocolConnections.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DAC930CCD2BCE29FD6C55A8 /* SyncanoProtocolConnections.h */; };
+		FF89BEEC3BBE81A310B466D7 /* UIImage+JSQMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = AB55C7C3A1285340FC5AE30B /* UIImage+JSQMessages.m */; };
+		FFDF05EEC173516DCBFB9D99 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9B66E9BE69FEAF77D61C8F /* AFHTTPRequestOperationManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0207A5CDABF8AD1920B30E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A76610B49F48A9F31BC30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EFA2E129E18CF3B87771AD7;
+			remoteInfo = "Pods-SyncanoChat-JSQSystemSoundPlayer";
+		};
+		3C0B7233EA63B1AF9280D2F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A76610B49F48A9F31BC30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E324DE0851D197122E17B0F4;
+			remoteInfo = "Pods-SyncanoChat-syncano-ios";
+		};
+		4732AB53A8AE1ABF194C185C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A76610B49F48A9F31BC30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97663CA864C2AC7AEC33BB2A;
+			remoteInfo = "Pods-SyncanoChat-AFNetworking";
+		};
+		579EB1CD8CAB1EDA35A99B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A76610B49F48A9F31BC30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F171C7E3BE7D4CC2C5FAE246;
+			remoteInfo = "Pods-SyncanoChat-CocoaAsyncSocket";
+		};
+		5E84A0971A62560D346CEE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A76610B49F48A9F31BC30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97663CA864C2AC7AEC33BB2A;
+			remoteInfo = "Pods-SyncanoChat-AFNetworking";
+		};
+		6EA28192902DCD665F9DC560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A76610B49F48A9F31BC30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0E313A6738B5A0F3FAB4EA5;
+			remoteInfo = "Pods-SyncanoChat-JSQMessagesViewController";
+		};
+		ACFEC81BB4F9F874B08A6FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A76610B49F48A9F31BC30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAEEFBEE8C232CABCC00C8DA;
+			remoteInfo = "Pods-SyncanoChat-Mantle";
+		};
+		CBABDC81960757CA86242A8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A76610B49F48A9F31BC30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F171C7E3BE7D4CC2C5FAE246;
+			remoteInfo = "Pods-SyncanoChat-CocoaAsyncSocket";
+		};
+		E3F03A31676B5799C8E999B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A76610B49F48A9F31BC30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EFA2E129E18CF3B87771AD7;
+			remoteInfo = "Pods-SyncanoChat-JSQSystemSoundPlayer";
+		};
+		F9192353A356682EE6E7C4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A76610B49F48A9F31BC30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAEEFBEE8C232CABCC00C8DA;
+			remoteInfo = "Pods-SyncanoChat-Mantle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0084D758EE40A1C9BBCCA685 /* SyncanoProtocolUsers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoProtocolUsers.h; path = Syncano/Protocols/SyncanoProtocolUsers.h; sourceTree = "<group>"; };
+		00E948A460C298D150B2BC23 /* SyncanoResponse_Notifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponse_Notifications.h; path = Syncano/Responses/Notification/SyncanoResponse_Notifications.h; sourceTree = "<group>"; };
+		010B73E70009583C95BE8D52 /* JSQMessagesCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewLayoutAttributes.h; path = JSQMessagesViewController/Layout/JSQMessagesCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		01B681A4CA5B329878BA1572 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		01EAECDE5603A9E7EDA6AEAC /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		02B2146FCAE84B1133F0F81D /* JSQMessagesViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesViewController.h; path = JSQMessagesViewController/Controllers/JSQMessagesViewController.h; sourceTree = "<group>"; };
+		03FC7CB29A865A5816525CDC /* SyncanoParameters_Notifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParameters_Notifications.h; path = Syncano/Parameters/Notification/SyncanoParameters_Notifications.h; sourceTree = "<group>"; };
+		041BA713D52BC3B838174926 /* SyncanoResponse_PermissionRoles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponse_PermissionRoles.h; path = Syncano/Responses/PermissionRoles/SyncanoResponse_PermissionRoles.h; sourceTree = "<group>"; };
+		051AFF58FC731A5ADD2BAD89 /* JSQMessagesAvatarImageFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesAvatarImageFactory.h; path = JSQMessagesViewController/Factories/JSQMessagesAvatarImageFactory.h; sourceTree = "<group>"; };
+		06CF7911B8C722C56136E55F /* Pods-SyncanoChat-CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SyncanoChat-CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		06F10AF108B27F372771F59B /* JSQMessagesCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionView.h; path = JSQMessagesViewController/Views/JSQMessagesCollectionView.h; sourceTree = "<group>"; };
+		06FF19A3CDC8E4D7F65D161F /* JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessages.h; path = JSQMessagesViewController/JSQMessages.h; sourceTree = "<group>"; };
+		08EBD636D48B9B258E9F5A32 /* SyncanoParameters_PermissionRoles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParameters_PermissionRoles.h; path = Syncano/Parameters/PermissionRoles/SyncanoParameters_PermissionRoles.h; sourceTree = "<group>"; };
+		09DDF98E7A9D97CA90C20CC9 /* JSQVideoMediaItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQVideoMediaItem.h; path = JSQMessagesViewController/Model/JSQVideoMediaItem.h; sourceTree = "<group>"; };
+		0B52CA8E7A917AC1B0510940 /* NSObject+MTLComparisonAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MTLComparisonAdditions.m"; path = "Mantle/NSObject+MTLComparisonAdditions.m"; sourceTree = "<group>"; };
+		0C93B9556B818EE1BB620EE9 /* server.der */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = server.der; path = Resources/server.der; sourceTree = "<group>"; };
+		0D350DDF71A98A5C92F87CBB /* MTLJSONAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLJSONAdapter.h; path = Mantle/MTLJSONAdapter.h; sourceTree = "<group>"; };
+		0D89FC93F2F7801605FB3216 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		0DAD3B1AC0CA04DB40D6D3B9 /* Pods-SyncanoChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat.release.xcconfig"; sourceTree = "<group>"; };
+		0F90E26E95C95780515CBE3E /* SyncanoObjects_Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoObjects_Private.m; path = Syncano/Objects/SyncanoObjects_Private.m; sourceTree = "<group>"; };
+		1205CB94014BAFD0EC329A14 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		123A83F80C8F82CA224DA777 /* SyncanoParameters_Connections.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoParameters_Connections.m; path = Syncano/Parameters/Connections/SyncanoParameters_Connections.m; sourceTree = "<group>"; };
+		13305D83433AA2295381AE4A /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		13A830EF98A75D003F0E0CA2 /* JSQMessagesTypingIndicatorFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesTypingIndicatorFooterView.h; path = JSQMessagesViewController/Views/JSQMessagesTypingIndicatorFooterView.h; sourceTree = "<group>"; };
+		13EB0E4E28626D913637E723 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		145F9F100DB3AC89C7EF6DF7 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		15D95CD125501BD7E16C1F14 /* SyncanoParameters_Users.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParameters_Users.h; path = Syncano/Parameters/Users/SyncanoParameters_Users.h; sourceTree = "<group>"; };
+		1627792B07B1C2AFBD6C7B3B /* JSQMessagesTypingIndicatorFooterView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JSQMessagesTypingIndicatorFooterView.xib; path = JSQMessagesViewController/Views/JSQMessagesTypingIndicatorFooterView.xib; sourceTree = "<group>"; };
+		1801313C06A2F39DFA0482FC /* SyncanoSyncServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoSyncServer.m; path = Syncano/SyncanoSyncServer.m; sourceTree = "<group>"; };
+		188A3EBA881C1268271FF75D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		18F4C87B8353AB39395635CE /* JSQMessagesCollectionViewCellIncoming.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JSQMessagesCollectionViewCellIncoming.xib; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCellIncoming.xib; sourceTree = "<group>"; };
+		19F4BC550D4549D293A47446 /* Syncano.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Syncano.m; path = Syncano/Syncano.m; sourceTree = "<group>"; };
+		19FB4E761A3BF95C2AFC6503 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1A79E51E4AB4E0B733619F0A /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		1A88BA258A2A73173ADC3AA9 /* NSString+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JSQMessages.h"; path = "JSQMessagesViewController/Categories/NSString+JSQMessages.h"; sourceTree = "<group>"; };
+		1AA59F407D1E0BFA5182B115 /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLManipulationAdditions.m"; path = "Mantle/NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		1B70301796CE17E13DB3E8E2 /* JSQMessagesComposerTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesComposerTextView.h; path = JSQMessagesViewController/Views/JSQMessagesComposerTextView.h; sourceTree = "<group>"; };
+		1BACA8BC1CFACB2D7E7C760A /* Pods-SyncanoChat-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SyncanoChat-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		1DDA356F5AFB96F83BA9E902 /* SyncanoParameters_Projects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParameters_Projects.h; path = Syncano/Parameters/Projects/SyncanoParameters_Projects.h; sourceTree = "<group>"; };
+		20B72380CCDEF89AE6FD25C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2144FBD91DEC3E1E833DFF05 /* SyncanoParameters_Subscriptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoParameters_Subscriptions.m; path = Syncano/Parameters/Subscriptions/SyncanoParameters_Subscriptions.m; sourceTree = "<group>"; };
+		21A02D8829BEDC40B18C124A /* JSQMessagesTypingIndicatorFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesTypingIndicatorFooterView.m; path = JSQMessagesViewController/Views/JSQMessagesTypingIndicatorFooterView.m; sourceTree = "<group>"; };
+		24BDF1781F4DD3A3E1F340E6 /* SyncanoParameters_Collections.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoParameters_Collections.m; path = Syncano/Parameters/Collections/SyncanoParameters_Collections.m; sourceTree = "<group>"; };
+		26025B653FEA64BDADFAE0D9 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		278CCE0521393BE0A617BA2A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		27AB277FC640579CC95930B3 /* JSQLocationMediaItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQLocationMediaItem.m; path = JSQMessagesViewController/Model/JSQLocationMediaItem.m; sourceTree = "<group>"; };
+		2875CB0634AE1709E6636320 /* JSQMessagesKeyboardController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesKeyboardController.h; path = JSQMessagesViewController/Controllers/JSQMessagesKeyboardController.h; sourceTree = "<group>"; };
+		28E598996AE2A1731FADCE01 /* JSQMessagesBubbleImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesBubbleImage.h; path = JSQMessagesViewController/Model/JSQMessagesBubbleImage.h; sourceTree = "<group>"; };
+		296B9C631EB283700726DA0A /* JSQMessagesToolbarContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesToolbarContentView.h; path = JSQMessagesViewController/Views/JSQMessagesToolbarContentView.h; sourceTree = "<group>"; };
+		2997913D003C76DB4FE28DAC /* SyncanoParameters_Subscriptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParameters_Subscriptions.h; path = Syncano/Parameters/Subscriptions/SyncanoParameters_Subscriptions.h; sourceTree = "<group>"; };
+		29D0E5B5D8BA339D377CF40E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		2A0B2363946E00F5FACC41E2 /* libPods-SyncanoChat-Mantle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SyncanoChat-Mantle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8721316C2FC4E53EB58E56 /* SyncanoParameters_DataObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoParameters_DataObjects.m; path = Syncano/Parameters/DataObjects/SyncanoParameters_DataObjects.m; sourceTree = "<group>"; };
+		2DCA259547E2F569A56F9E5D /* SyncanoReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoReachability.h; path = Syncano/SyncanoReachability.h; sourceTree = "<group>"; };
+		2E05DD46EEC1EA4C108AD7A6 /* Pods-SyncanoChat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SyncanoChat-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E301663C365C84D0689614D /* JSQMessagesCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCollectionViewCell.m; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCell.m; sourceTree = "<group>"; };
+		30BA6918EE64ED49AA823665 /* SyncanoParameters_Projects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoParameters_Projects.m; path = Syncano/Parameters/Projects/SyncanoParameters_Projects.m; sourceTree = "<group>"; };
+		32DE28E21287077703606F86 /* UIColor+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+JSQMessages.h"; path = "JSQMessagesViewController/Categories/UIColor+JSQMessages.h"; sourceTree = "<group>"; };
+		3431927B65FF7D426C1A2A5C /* libPods-SyncanoChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SyncanoChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36184A5301B94947CBB1E323 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		37349F6F5744697F21120B26 /* Pods-SyncanoChat-Mantle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SyncanoChat-Mantle-dummy.m"; sourceTree = "<group>"; };
+		37E893150CEEF9BD8C209175 /* JSQSystemSoundPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQSystemSoundPlayer.h; path = JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.h; sourceTree = "<group>"; };
+		37F48160D7D4C6065C842E40 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		38BEAD31129014AABC5D4D1C /* SyncanoResponse_PermissionRoles.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoResponse_PermissionRoles.m; path = Syncano/Responses/PermissionRoles/SyncanoResponse_PermissionRoles.m; sourceTree = "<group>"; };
+		3917BBC95D4C1C2D070323E4 /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MTLManipulationAdditions.m"; path = "Mantle/NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		3962E77E49448857FA264A1E /* SyncanoResponse_Folders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponse_Folders.h; path = Syncano/Responses/Folders/SyncanoResponse_Folders.h; sourceTree = "<group>"; };
+		39BF7864026FE40ACA6ED988 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		39E6CFCC3A23128FFF84E5CA /* libPods-SyncanoChat-JSQMessagesViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SyncanoChat-JSQMessagesViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA9690D18C7F35B6D3C2710 /* SyncanoParameters_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParameters_Private.h; path = Syncano/Parameters/SyncanoParameters_Private.h; sourceTree = "<group>"; };
+		3BB187495247B7D3196671B9 /* Pods-SyncanoChat-CocoaAsyncSocket-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat-CocoaAsyncSocket-Private.xcconfig"; sourceTree = "<group>"; };
+		3E173CF33E10C5E846656E2F /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = Mantle/extobjc/EXTScope.m; sourceTree = "<group>"; };
+		3EA4DC60B52B2107EF411611 /* MTLModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLModel.h; path = Mantle/MTLModel.h; sourceTree = "<group>"; };
+		3EB89882D03C383B39E1D5C8 /* JSQMessagesViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesViewController.m; path = JSQMessagesViewController/Controllers/JSQMessagesViewController.m; sourceTree = "<group>"; };
+		3F56AB834A3ED413A3737EE9 /* SyncanoParameters_PermissionRoles.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoParameters_PermissionRoles.m; path = Syncano/Parameters/PermissionRoles/SyncanoParameters_PermissionRoles.m; sourceTree = "<group>"; };
+		3F6CE306326F0193A95BCF74 /* SyncanoParameters_APIKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParameters_APIKeys.h; path = Syncano/Parameters/APIKeys/SyncanoParameters_APIKeys.h; sourceTree = "<group>"; };
+		3FAAB926DD28E75BBD323161 /* SyncanoResponse_Administrators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponse_Administrators.h; path = Syncano/Responses/Administrators/SyncanoResponse_Administrators.h; sourceTree = "<group>"; };
+		401A38754C376533E8F5EB07 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		4098F283BDBBFE158B74CD5A /* JSQMessagesCellTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCellTextView.m; path = JSQMessagesViewController/Views/JSQMessagesCellTextView.m; sourceTree = "<group>"; };
+		41059774E29C4895DE563B0D /* syncano-ios.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = "syncano-ios.podspec.json"; sourceTree = "<group>"; };
+		431A8AA72B6522D47F5FAB27 /* JSQMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessage.h; path = JSQMessagesViewController/Model/JSQMessage.h; sourceTree = "<group>"; };
+		45669D0E7A924B1D16ABE847 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		46061E6639C7E34387A5006C /* JSQPhotoMediaItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQPhotoMediaItem.h; path = JSQMessagesViewController/Model/JSQPhotoMediaItem.h; sourceTree = "<group>"; };
+		467354BAA160D6A69E153155 /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLInversionAdditions.h"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
+		46A689CD1B32B9B64F78D735 /* JSQMessagesInputToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesInputToolbar.m; path = JSQMessagesViewController/Views/JSQMessagesInputToolbar.m; sourceTree = "<group>"; };
+		471DD5665E0B34B7C8E11315 /* UIView+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JSQMessages.h"; path = "JSQMessagesViewController/Categories/UIView+JSQMessages.h"; sourceTree = "<group>"; };
+		485970F0D0180DCF609BBEDD /* SyncanoResponse_Subscriptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoResponse_Subscriptions.m; path = Syncano/Responses/Subscriptions/SyncanoResponse_Subscriptions.m; sourceTree = "<group>"; };
+		4880C9F4FC146304F89A8494 /* JSQMessagesBubbleImageFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesBubbleImageFactory.m; path = JSQMessagesViewController/Factories/JSQMessagesBubbleImageFactory.m; sourceTree = "<group>"; };
+		48F6634403F20F73996B9F51 /* NSError+MTLModelException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+MTLModelException.m"; path = "Mantle/NSError+MTLModelException.m"; sourceTree = "<group>"; };
+		4955A33580E335D75FFC9752 /* SyncanoProtocolProjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoProtocolProjects.h; path = Syncano/Protocols/SyncanoProtocolProjects.h; sourceTree = "<group>"; };
+		4A01303318B1C787F3119767 /* SyncanoParameters_Folders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoParameters_Folders.m; path = Syncano/Parameters/Folders/SyncanoParameters_Folders.m; sourceTree = "<group>"; };
+		4AC223F793F5F29880E654C4 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		4B083D6168EB8D7F24108A7C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		4BC9BAC33E62170FA1D8AF0B /* JSQMessagesCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewCell.h; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCell.h; sourceTree = "<group>"; };
+		4C899A7AF9AD70D5099EF111 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
+		4D82CAD85426E68BCE3DAD11 /* SyncanoParameters_Administrators.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoParameters_Administrators.m; path = Syncano/Parameters/Administrators/SyncanoParameters_Administrators.m; sourceTree = "<group>"; };
+		4DF443B1D6DCC51E4EEFD395 /* JSQVideoMediaItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQVideoMediaItem.m; path = JSQMessagesViewController/Model/JSQVideoMediaItem.m; sourceTree = "<group>"; };
+		4E91ED24F7E83CA9719AE737 /* SyncanoProtocolPermissionRoles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoProtocolPermissionRoles.h; path = Syncano/Protocols/SyncanoProtocolPermissionRoles.h; sourceTree = "<group>"; };
+		4F68BA9B4E55E41CE5BAD724 /* MTLManagedObjectAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLManagedObjectAdapter.m; path = Mantle/MTLManagedObjectAdapter.m; sourceTree = "<group>"; };
+		4F86EB10B5CABBC089576BBC /* Pods-SyncanoChat-syncano-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SyncanoChat-syncano-ios-prefix.pch"; sourceTree = "<group>"; };
+		4FFD4F8BD3F9D904791BB277 /* Pods-SyncanoChat-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		50163F2DEB54EE394B02B22A /* JSQMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessage.m; path = JSQMessagesViewController/Model/JSQMessage.m; sourceTree = "<group>"; };
+		50BD65F9CB0A7AC482B34AF4 /* JSQMessagesCollectionViewFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCollectionViewFlowLayout.m; path = JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		51F4DB282D9C07900DAF6150 /* JSQMessagesCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCollectionView.m; path = JSQMessagesViewController/Views/JSQMessagesCollectionView.m; sourceTree = "<group>"; };
+		5394458EFD6438ADDC09403F /* SyncanoResponse_DataObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponse_DataObjects.h; path = Syncano/Responses/DataObjects/SyncanoResponse_DataObjects.h; sourceTree = "<group>"; };
+		559BE2B075D44D7B34D75A19 /* JSQMessagesLoadEarlierHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesLoadEarlierHeaderView.m; path = JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.m; sourceTree = "<group>"; };
+		56C1E94074DF774185F94F6B /* SyncanoParameters_DataObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParameters_DataObjects.h; path = Syncano/Parameters/DataObjects/SyncanoParameters_DataObjects.h; sourceTree = "<group>"; };
+		57EA66106FD18A603B88E6B0 /* UIDevice+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+JSQMessages.m"; path = "JSQMessagesViewController/Categories/UIDevice+JSQMessages.m"; sourceTree = "<group>"; };
+		583312D12A47AC17514969CC /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		598C9A77108B48239D090BC8 /* Pods-SyncanoChat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SyncanoChat-resources.sh"; sourceTree = "<group>"; };
+		59A4FE247D84656B474EE3D4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		5A57EDB9A865895FE400A105 /* JSQMessagesAvatarImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesAvatarImage.h; path = JSQMessagesViewController/Model/JSQMessagesAvatarImage.h; sourceTree = "<group>"; };
+		5A6C8F5419B28E4DFBF9A2A4 /* JSQMessageData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessageData.h; path = JSQMessagesViewController/Model/JSQMessageData.h; sourceTree = "<group>"; };
+		5B679C3CF7431BE0BDA3FE89 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		5C7ECC300F22E6998CD33201 /* Pods-SyncanoChat-Mantle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat-Mantle.xcconfig"; sourceTree = "<group>"; };
+		5CADED34B921915654CB5495 /* SyncanoParameters_Connections.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParameters_Connections.h; path = Syncano/Parameters/Connections/SyncanoParameters_Connections.h; sourceTree = "<group>"; };
+		5E134524F682D9C3AFB90B1A /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		5ED56E07CCBC4E76FA1212F7 /* SyncanoResponse_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponse_Private.h; path = Syncano/Responses/SyncanoResponse_Private.h; sourceTree = "<group>"; };
+		5FBA92631EDFBA361E6CC665 /* JSQPhotoMediaItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQPhotoMediaItem.m; path = JSQMessagesViewController/Model/JSQPhotoMediaItem.m; sourceTree = "<group>"; };
+		601A484A6277070D487CF429 /* libPods-SyncanoChat-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SyncanoChat-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EB9B9ED48E8E9F16C1F830 /* SyncanoProtocolSubscriptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoProtocolSubscriptions.h; path = Syncano/Protocols/SyncanoProtocolSubscriptions.h; sourceTree = "<group>"; };
+		6238DC02DC158E19021BFDD0 /* Pods-SyncanoChat-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SyncanoChat-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		639F888274DA64996CD627E5 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		63B7CC6F39D40C4BD4DCBB6B /* JSQMessagesInputToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesInputToolbar.h; path = JSQMessagesViewController/Views/JSQMessagesInputToolbar.h; sourceTree = "<group>"; };
+		63C16E9DA35D1E4868A7888A /* SyncanoResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoResponse.m; path = Syncano/Responses/SyncanoResponse.m; sourceTree = "<group>"; };
+		64040084CC686377A27F4518 /* Pods-SyncanoChat-Mantle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SyncanoChat-Mantle-prefix.pch"; sourceTree = "<group>"; };
+		640D161BC3A65A355B4EA6B8 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		673FCD3AD87079B2E5D92AA5 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		67519D7080A7D5CCF9847655 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		67738F5C1477B97FFCE5235C /* NSError+MTLModelException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+MTLModelException.h"; path = "Mantle/NSError+MTLModelException.h"; sourceTree = "<group>"; };
+		6861EE349A3BC2988B8176EE /* JSQLocationMediaItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQLocationMediaItem.h; path = JSQMessagesViewController/Model/JSQLocationMediaItem.h; sourceTree = "<group>"; };
+		686F7A8D7B47DE6A6212014C /* JSQMessagesMediaViewBubbleImageMasker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesMediaViewBubbleImageMasker.m; path = JSQMessagesViewController/Factories/JSQMessagesMediaViewBubbleImageMasker.m; sourceTree = "<group>"; };
+		68C8E65B870A628E23BE2D57 /* SyncanoParameters_Administrators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParameters_Administrators.h; path = Syncano/Parameters/Administrators/SyncanoParameters_Administrators.h; sourceTree = "<group>"; };
+		6A033C95EF2167FF90FB5FF6 /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MTLManipulationAdditions.h"; path = "Mantle/NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		6BB7DDA922FF8C06CF4BE277 /* SyncanoProtocolCollections.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoProtocolCollections.h; path = Syncano/Protocols/SyncanoProtocolCollections.h; sourceTree = "<group>"; };
+		6BD8C22BBFBE28B94C5F000A /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		6C024C5D944445BF963CF0C4 /* SyncanoProtocolAdministrators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoProtocolAdministrators.h; path = Syncano/Protocols/SyncanoProtocolAdministrators.h; sourceTree = "<group>"; };
+		6CAE079BA62C53B77FB75FB1 /* SyncanoParameters_Notifications.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoParameters_Notifications.m; path = Syncano/Parameters/Notification/SyncanoParameters_Notifications.m; sourceTree = "<group>"; };
+		6D7966E988E62FFB2A6F4A93 /* JSQMessagesTimestampFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesTimestampFormatter.m; path = JSQMessagesViewController/Factories/JSQMessagesTimestampFormatter.m; sourceTree = "<group>"; };
+		6DC443AD8AC78F34BB8F3079 /* JSQMessagesCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCollectionViewLayoutAttributes.m; path = JSQMessagesViewController/Layout/JSQMessagesCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		6DF7FC9F0008FE42C26880B5 /* JSQMessagesLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesLabel.m; path = JSQMessagesViewController/Views/JSQMessagesLabel.m; sourceTree = "<group>"; };
+		6F6F8050946D03CC54AF722F /* JSQMessagesCollectionViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewDataSource.h; path = JSQMessagesViewController/Model/JSQMessagesCollectionViewDataSource.h; sourceTree = "<group>"; };
+		701C41F9130BED8820B1BAF8 /* JSQMessagesCollectionViewDelegateFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewDelegateFlowLayout.h; path = JSQMessagesViewController/Model/JSQMessagesCollectionViewDelegateFlowLayout.h; sourceTree = "<group>"; };
+		70B73BFFBA0FF025F8D165DE /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = Mantle/extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		710009E3E5E7402B439D1787 /* SyncanoResponse_Notifications.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoResponse_Notifications.m; path = Syncano/Responses/Notification/SyncanoResponse_Notifications.m; sourceTree = "<group>"; };
+		71372CDDA93E9C904CAB5A7A /* Pods-SyncanoChat-JSQMessagesViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat-JSQMessagesViewController.xcconfig"; sourceTree = "<group>"; };
+		719058CC178E1D42CBBF6F7E /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		7268122E39E541DCBACA0874 /* libPods-SyncanoChat-syncano-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SyncanoChat-syncano-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		727C911E07AB0AAE819BEA22 /* JSQMessagesToolbarContentView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JSQMessagesToolbarContentView.xib; path = JSQMessagesViewController/Views/JSQMessagesToolbarContentView.xib; sourceTree = "<group>"; };
+		72897DC138C1EBFB67133A95 /* SyncanoResponse_Folders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoResponse_Folders.m; path = Syncano/Responses/Folders/SyncanoResponse_Folders.m; sourceTree = "<group>"; };
+		732C602ACE2B8BE516295132 /* MTLJSONAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLJSONAdapter.m; path = Mantle/MTLJSONAdapter.m; sourceTree = "<group>"; };
+		746793384B24C411CDD81EDF /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		74B8684FF0155B09FF7B3FDF /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTLModel+NSCoding.h"; path = "Mantle/MTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		74FFB7F009192D7A748DD7E4 /* JSQMessagesAvatarImageFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesAvatarImageFactory.m; path = JSQMessagesViewController/Factories/JSQMessagesAvatarImageFactory.m; sourceTree = "<group>"; };
+		756C70DE315F1475894FF0D1 /* JSQMessagesCollectionViewCellIncoming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCollectionViewCellIncoming.m; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCellIncoming.m; sourceTree = "<group>"; };
+		758214181FBCA8B890F80014 /* Pods-SyncanoChat-JSQMessagesViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SyncanoChat-JSQMessagesViewController-prefix.pch"; sourceTree = "<group>"; };
+		768085018FF3AFE64C2307C7 /* SyncanoProtocolAPIKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoProtocolAPIKeys.h; path = Syncano/Protocols/SyncanoProtocolAPIKeys.h; sourceTree = "<group>"; };
+		769C89B501DDF8617C4C889A /* JSQMessagesToolbarContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesToolbarContentView.m; path = JSQMessagesViewController/Views/JSQMessagesToolbarContentView.m; sourceTree = "<group>"; };
+		76BE96735F330DABAB02B61E /* Pods-SyncanoChat-JSQSystemSoundPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SyncanoChat-JSQSystemSoundPlayer-prefix.pch"; sourceTree = "<group>"; };
+		7793824DBB91C466E438A56F /* JSQSystemSoundPlayer+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSQSystemSoundPlayer+JSQMessages.h"; path = "JSQMessagesViewController/Categories/JSQSystemSoundPlayer+JSQMessages.h"; sourceTree = "<group>"; };
+		77DB783C6EF9F9D6A101B401 /* SyncanoReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoReachability.m; path = Syncano/SyncanoReachability.m; sourceTree = "<group>"; };
+		7829841A7183EE095F5F0C92 /* SyncanoParameters_APIKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoParameters_APIKeys.m; path = Syncano/Parameters/APIKeys/SyncanoParameters_APIKeys.m; sourceTree = "<group>"; };
+		785C0D83BEFE68B69E9734DF /* Pods-SyncanoChat-Mantle-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat-Mantle-Private.xcconfig"; sourceTree = "<group>"; };
+		7968E745A371AE1C3FAAA7DC /* SyncanoResponse_Collections.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponse_Collections.h; path = Syncano/Responses/Collections/SyncanoResponse_Collections.h; sourceTree = "<group>"; };
+		79D310291983286F6361ED54 /* SyncanoParameters_Collections.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParameters_Collections.h; path = Syncano/Parameters/Collections/SyncanoParameters_Collections.h; sourceTree = "<group>"; };
+		7A074DE001B144E0D10D29AE /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		7B64B6207393D3ED363C9473 /* Pods-SyncanoChat-JSQMessagesViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat-JSQMessagesViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		7D9C0CBEE5E72401AE4AEC04 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		7FB79A1307042C8973F6AFA0 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		7FCD9121FE9AE28F2E36CD20 /* Pods-SyncanoChat-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SyncanoChat-environment.h"; sourceTree = "<group>"; };
+		814443C9BABC8A011FB9A548 /* JSQMessagesLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesLabel.h; path = JSQMessagesViewController/Views/JSQMessagesLabel.h; sourceTree = "<group>"; };
+		818FD53BD296B99615C9F33B /* Pods-SyncanoChat-JSQSystemSoundPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SyncanoChat-JSQSystemSoundPlayer-dummy.m"; sourceTree = "<group>"; };
+		8271035D2754DA8E5B9BD817 /* SyncanoProtocolFolders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoProtocolFolders.h; path = Syncano/Protocols/SyncanoProtocolFolders.h; sourceTree = "<group>"; };
+		82A0A19197F21ABAFE120F04 /* SyncanoResponse_DataObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoResponse_DataObjects.m; path = Syncano/Responses/DataObjects/SyncanoResponse_DataObjects.m; sourceTree = "<group>"; };
+		8344DF51515EA17FCFDE02CF /* libPods-SyncanoChat-CocoaAsyncSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SyncanoChat-CocoaAsyncSocket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837DC0D9A01306115DFD098C /* Syncano.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Syncano.h; path = Syncano/Syncano.h; sourceTree = "<group>"; };
+		83FF81F90C2E688D7E7E0871 /* JSQMessagesToolbarButtonFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesToolbarButtonFactory.h; path = JSQMessagesViewController/Factories/JSQMessagesToolbarButtonFactory.h; sourceTree = "<group>"; };
+		84488D63EFA47E3BC58C17EA /* SyncanoParametersListing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParametersListing.h; path = Syncano/Parameters/SyncanoParametersListing.h; sourceTree = "<group>"; };
+		865C4F7BE93FE95C8033BB0C /* MTLReflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLReflection.m; path = Mantle/MTLReflection.m; sourceTree = "<group>"; };
+		8744BDAEED5C298339713656 /* Pods-SyncanoChat-syncano-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SyncanoChat-syncano-ios-dummy.m"; sourceTree = "<group>"; };
+		8909CC31A6E373B32431217D /* JSQMessagesCollectionViewCellIncoming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewCellIncoming.h; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCellIncoming.h; sourceTree = "<group>"; };
+		8AB16CD7B5084083490DD62F /* SyncanoParameters_Folders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParameters_Folders.h; path = Syncano/Parameters/Folders/SyncanoParameters_Folders.h; sourceTree = "<group>"; };
+		8AF5B3F9CB886282BA0D5B8D /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		8E1695EE48FF7BBE3487D3FD /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLInversionAdditions.m"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
+		8E20628A881E468BF253784E /* SyncanoResponse_Subscriptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponse_Subscriptions.h; path = Syncano/Responses/Subscriptions/SyncanoResponse_Subscriptions.h; sourceTree = "<group>"; };
+		8E5FA5D1909BCE58F4839704 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = Mantle/extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		8F4F71222FA99B3725ABBFD0 /* Mantle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mantle.h; path = Mantle/Mantle.h; sourceTree = "<group>"; };
+		8F6109D45FEC64908D4ACC9E /* Pods-SyncanoChat-syncano-ios-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat-syncano-ios-Private.xcconfig"; sourceTree = "<group>"; };
+		8F65E04700C0402307AE4DEB /* JSQMessagesToolbarButtonFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesToolbarButtonFactory.m; path = JSQMessagesViewController/Factories/JSQMessagesToolbarButtonFactory.m; sourceTree = "<group>"; };
+		8FEACCCD31997930313FA0A7 /* JSQMessagesTimestampFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesTimestampFormatter.h; path = JSQMessagesViewController/Factories/JSQMessagesTimestampFormatter.h; sourceTree = "<group>"; };
+		90F8ABCD4063B4B8FECD85C0 /* libPods-SyncanoChat-JSQSystemSoundPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SyncanoChat-JSQSystemSoundPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		915378EB87B9CFD2727BC401 /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MTLComparisonAdditions.h"; path = "Mantle/NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		91BB8EA3AB5E929EED692F9B /* SyncanoResponse_Users.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoResponse_Users.m; path = Syncano/Responses/Users/SyncanoResponse_Users.m; sourceTree = "<group>"; };
+		920EB3449513737359E85F19 /* JSQMessagesCollectionViewFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewFlowLayout.h; path = JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		93C3F23758320098A087B060 /* SyncanoProtocolsListing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoProtocolsListing.h; path = Syncano/Protocols/SyncanoProtocolsListing.h; sourceTree = "<group>"; };
+		94B3A48FAFFD68135A8531CD /* Pods-SyncanoChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SyncanoChat-dummy.m"; sourceTree = "<group>"; };
+		9732F8656D7DF1351CD507D0 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		98B568380692260F92005145 /* NSBundle+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+JSQMessages.h"; path = "JSQMessagesViewController/Categories/NSBundle+JSQMessages.h"; sourceTree = "<group>"; };
+		99033FE3DCF84069E9F2AB56 /* Pods-SyncanoChat-CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SyncanoChat-CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		9A31D65E7E3A4B36A2F36456 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		9B55F6CF89642D4F258885C7 /* SyncanoProtocolRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoProtocolRequest.h; path = Syncano/Protocols/SyncanoProtocolRequest.h; sourceTree = "<group>"; };
+		9BE7CC5F518BCD77AD7F16E7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CD03604D6EBB6BE7FBE6E7E /* Pods-SyncanoChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat.debug.xcconfig"; sourceTree = "<group>"; };
+		9DAC930CCD2BCE29FD6C55A8 /* SyncanoProtocolConnections.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoProtocolConnections.h; path = Syncano/Protocols/SyncanoProtocolConnections.h; sourceTree = "<group>"; };
+		9DDFA745CAB59BDE7DA4F4D9 /* SyncanoParameters_Users.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoParameters_Users.m; path = Syncano/Parameters/Users/SyncanoParameters_Users.m; sourceTree = "<group>"; };
+		9E4BED3B7A96EC11FAD18D8C /* SyncanoResponse_APIKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoResponse_APIKeys.m; path = Syncano/Responses/APIKeys/SyncanoResponse_APIKeys.m; sourceTree = "<group>"; };
+		9E5CB129B4EFF90078C3458F /* Pods-SyncanoChat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SyncanoChat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A088705EADE2345E9B5938B1 /* JSQMessagesCollectionViewCellOutgoing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCollectionViewCellOutgoing.m; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCellOutgoing.m; sourceTree = "<group>"; };
+		A0AD8F9E9F8119EAC65EEF4D /* syncano-ios-library-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "syncano-ios-library-Prefix.pch"; path = "syncano-ios-library/syncano-ios-library-Prefix.pch"; sourceTree = "<group>"; };
+		A11B7C8BC206980EA97DB4CA /* JSQMessageMediaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessageMediaData.h; path = JSQMessagesViewController/Model/JSQMessageMediaData.h; sourceTree = "<group>"; };
+		A232718FBEE6E17629948B4F /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A2F86EA048C6489B65690109 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A514014EDE0A3F91D14FD70C /* JSQMessagesMediaPlaceholderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesMediaPlaceholderView.m; path = JSQMessagesViewController/Views/JSQMessagesMediaPlaceholderView.m; sourceTree = "<group>"; };
+		A8DA84A8883B97E20C78632C /* JSQMessagesViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JSQMessagesViewController.xib; path = JSQMessagesViewController/Controllers/JSQMessagesViewController.xib; sourceTree = "<group>"; };
+		A94E9893934B80C249CB31FE /* Pods-SyncanoChat-syncano-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat-syncano-ios.xcconfig"; sourceTree = "<group>"; };
+		A98B5127F902AC4B89B449B7 /* Pods-SyncanoChat-JSQMessagesViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SyncanoChat-JSQMessagesViewController-dummy.m"; sourceTree = "<group>"; };
+		A99945F9333525A1107181D9 /* SyncanoResponse_Collections.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoResponse_Collections.m; path = Syncano/Responses/Collections/SyncanoResponse_Collections.m; sourceTree = "<group>"; };
+		A9CBBCB6C52713E6D2BEC3C8 /* JSQSystemSoundPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQSystemSoundPlayer.m; path = JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.m; sourceTree = "<group>"; };
+		AB55C7C3A1285340FC5AE30B /* UIImage+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+JSQMessages.m"; path = "JSQMessagesViewController/Categories/UIImage+JSQMessages.m"; sourceTree = "<group>"; };
+		AE48A6E7FDD1BA361667E859 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
+		AF5476F348F405B37F97C4CE /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewFlowLayoutInvalidationContext.h; path = JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h; sourceTree = "<group>"; };
+		AF55DBE29603719E615FEC4A /* Pods-SyncanoChat-JSQSystemSoundPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat-JSQSystemSoundPlayer.xcconfig"; sourceTree = "<group>"; };
+		B03277E2C898FC1CCB1DDB3F /* JSQMessagesMediaPlaceholderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesMediaPlaceholderView.h; path = JSQMessagesViewController/Views/JSQMessagesMediaPlaceholderView.h; sourceTree = "<group>"; };
+		B19FB18BF10F8496EAD8C01D /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		B3829ACA1D402FEAD224F819 /* AsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = RunLoop/AsyncSocket.h; sourceTree = "<group>"; };
+		B63AE2537A52793DEACCCF94 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesCollectionViewFlowLayoutInvalidationContext.m; path = JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayoutInvalidationContext.m; sourceTree = "<group>"; };
+		B72FD2A0434B880C2307EBFF /* UIColor+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+JSQMessages.m"; path = "JSQMessagesViewController/Categories/UIColor+JSQMessages.m"; sourceTree = "<group>"; };
+		B763E164F0421CB93C1B388B /* SyncanoResponsesListing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponsesListing.h; path = Syncano/Responses/SyncanoResponsesListing.h; sourceTree = "<group>"; };
+		BAC7D767FA41C8908CA2063A /* SyncanoProtocolNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoProtocolNotification.h; path = Syncano/Protocols/SyncanoProtocolNotification.h; sourceTree = "<group>"; };
+		BB1732D6CCA25E67A6A6D590 /* JSQMessagesMediaViewBubbleImageMasker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesMediaViewBubbleImageMasker.h; path = JSQMessagesViewController/Factories/JSQMessagesMediaViewBubbleImageMasker.h; sourceTree = "<group>"; };
+		BFE33D4BCEAE696DCCAEDA87 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		C134F8CC1F16AA1BE092CEB4 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = Mantle/extobjc/metamacros.h; sourceTree = "<group>"; };
+		C18F65BABD0694C49B0DA1FA /* UIView+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JSQMessages.m"; path = "JSQMessagesViewController/Categories/UIView+JSQMessages.m"; sourceTree = "<group>"; };
+		C1DD3FF718A8123CAFCFA60A /* SyncanoParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoParameters.m; path = Syncano/Parameters/SyncanoParameters.m; sourceTree = "<group>"; };
+		C48C62F2907FF09A21E6289A /* Pods-SyncanoChat-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		C4DB025561DC26BE06E98196 /* SyncanoResponse_Connections.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoResponse_Connections.m; path = Syncano/Responses/Connections/SyncanoResponse_Connections.m; sourceTree = "<group>"; };
+		C5FAD505AD6AEBD3CC2E67EF /* AsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AsyncUdpSocket.m; path = RunLoop/AsyncUdpSocket.m; sourceTree = "<group>"; };
+		C8FEA332786CF1091687D2A3 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		C93F24D97307AC10E241B9BF /* JSQMessagesBubbleImageFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesBubbleImageFactory.h; path = JSQMessagesViewController/Factories/JSQMessagesBubbleImageFactory.h; sourceTree = "<group>"; };
+		CB17F1FE5AE779A492969A8E /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = Mantle/extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		CC9D79CA754EFB547A163052 /* SyncanoResponse_Projects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoResponse_Projects.m; path = Syncano/Responses/Projects/SyncanoResponse_Projects.m; sourceTree = "<group>"; };
+		CD86B7B873E3376F9508CA8F /* JSQMessagesLoadEarlierHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesLoadEarlierHeaderView.h; path = JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.h; sourceTree = "<group>"; };
+		CE0F423A4903F45D7798F0E1 /* SyncanoResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponse.h; path = Syncano/Responses/SyncanoResponse.h; sourceTree = "<group>"; };
+		CF11CB52579BE2399E08379A /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		CF585B05C156C33DEB6900FF /* JSQMessagesCollectionViewCellOutgoing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCollectionViewCellOutgoing.h; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCellOutgoing.h; sourceTree = "<group>"; };
+		CF59320DDA671CE5C467A5C0 /* SyncanoResponse_Users.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponse_Users.h; path = Syncano/Responses/Users/SyncanoResponse_Users.h; sourceTree = "<group>"; };
+		D029D0D2FBA8CAF8919563A3 /* SyncanoObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoObjects.h; path = Syncano/Objects/SyncanoObjects.h; sourceTree = "<group>"; };
+		D1A75159DAF164C0D3862422 /* JSQMessagesCellTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessagesCellTextView.h; path = JSQMessagesViewController/Views/JSQMessagesCellTextView.h; sourceTree = "<group>"; };
+		D25525C9D0F16796D18A657E /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		D32EF15F9B1407EC694D9683 /* SyncanoDateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoDateFormatter.h; path = Syncano/Utilities/SyncanoDateFormatter.h; sourceTree = "<group>"; };
+		D3D876F767B860A56069533B /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		D4F93241D5888B3E9A88A7EB /* AsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = RunLoop/AsyncSocket.m; sourceTree = "<group>"; };
+		D5F5561282E2CAA14799D456 /* SyncanoResponse_Administrators.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoResponse_Administrators.m; path = Syncano/Responses/Administrators/SyncanoResponse_Administrators.m; sourceTree = "<group>"; };
+		D6414481124F2E53649700FD /* SyncanoObjects_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoObjects_Private.h; path = Syncano/Objects/SyncanoObjects_Private.h; sourceTree = "<group>"; };
+		D687E7AEA364713121C01F44 /* JSQMessagesBubbleImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesBubbleImage.m; path = JSQMessagesViewController/Model/JSQMessagesBubbleImage.m; sourceTree = "<group>"; };
+		D8660F9115CFFD32084D6905 /* MTLManagedObjectAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLManagedObjectAdapter.h; path = Mantle/MTLManagedObjectAdapter.h; sourceTree = "<group>"; };
+		DB3C8513F81859FE6E5FA201 /* Pods-SyncanoChat-CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat-CocoaAsyncSocket.xcconfig"; sourceTree = "<group>"; };
+		DE81C8A0A8B7026A997A8E34 /* JSQMessagesAssets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = JSQMessagesAssets.bundle; path = JSQMessagesViewController/Assets/JSQMessagesAssets.bundle; sourceTree = "<group>"; };
+		DF97BA5C1DC4E7E526AFFDB1 /* SyncanoDateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoDateFormatter.m; path = Syncano/Utilities/SyncanoDateFormatter.m; sourceTree = "<group>"; };
+		E11ED6E17CC3CA93F1BEF937 /* JSQMessagesKeyboardController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesKeyboardController.m; path = JSQMessagesViewController/Controllers/JSQMessagesKeyboardController.m; sourceTree = "<group>"; };
+		E1D9AAD3E487357899CB1CC3 /* SyncanoParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoParameters.h; path = Syncano/Parameters/SyncanoParameters.h; sourceTree = "<group>"; };
+		E39AA40BBBC2557CA4273A49 /* JSQMediaItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMediaItem.h; path = JSQMessagesViewController/Model/JSQMediaItem.h; sourceTree = "<group>"; };
+		E4718BDA829A44F01F4C3F5A /* JSQMessagesCollectionViewCellOutgoing.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JSQMessagesCollectionViewCellOutgoing.xib; path = JSQMessagesViewController/Views/JSQMessagesCollectionViewCellOutgoing.xib; sourceTree = "<group>"; };
+		E55069A6443C5615800CDBCE /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MTLModel+NSCoding.m"; path = "Mantle/MTLModel+NSCoding.m"; sourceTree = "<group>"; };
+		E56532A3B3A7A805E0C0FD4D /* SyncanoObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncanoObjects.m; path = Syncano/Objects/SyncanoObjects.m; sourceTree = "<group>"; };
+		E650C8C758AE04E8BD2FEE55 /* MTLModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLModel.m; path = Mantle/MTLModel.m; sourceTree = "<group>"; };
+		E68F24CD767DFC0D1780C349 /* SyncanoProtocolDataObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoProtocolDataObjects.h; path = Syncano/Protocols/SyncanoProtocolDataObjects.h; sourceTree = "<group>"; };
+		E72EE0038CAA3D908D9ECBE5 /* JSQMessageBubbleImageDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessageBubbleImageDataSource.h; path = JSQMessagesViewController/Model/JSQMessageBubbleImageDataSource.h; sourceTree = "<group>"; };
+		E821B2E25FF543E306BE7247 /* SyncanoResponse_Connections.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponse_Connections.h; path = Syncano/Responses/Connections/SyncanoResponse_Connections.h; sourceTree = "<group>"; };
+		E8AD98281E06222CC5191BF8 /* SyncanoResponse_APIKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponse_APIKeys.h; path = Syncano/Responses/APIKeys/SyncanoResponse_APIKeys.h; sourceTree = "<group>"; };
+		E8C7D1ADA20736DB1D1FB6DA /* JSQMediaItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMediaItem.m; path = JSQMessagesViewController/Model/JSQMediaItem.m; sourceTree = "<group>"; };
+		EBBAF629326345FB15BF66C8 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncUdpSocket.h; path = RunLoop/AsyncUdpSocket.h; sourceTree = "<group>"; };
+		EC519334146F5E2AFD148882 /* UIImage+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+JSQMessages.h"; path = "JSQMessagesViewController/Categories/UIImage+JSQMessages.h"; sourceTree = "<group>"; };
+		ECCDEA9526EC0E5AAE3B1A8A /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLManipulationAdditions.h"; path = "Mantle/NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		EEDA2A2288E9FBA23EEF9E82 /* JSQMessagesLoadEarlierHeaderView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JSQMessagesLoadEarlierHeaderView.xib; path = JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.xib; sourceTree = "<group>"; };
+		F01A9C1986BBF98363747DFF /* MTLReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLReflection.h; path = Mantle/MTLReflection.h; sourceTree = "<group>"; };
+		F07815EDB3673D5DCB667BDC /* Pods-SyncanoChat-JSQSystemSoundPlayer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SyncanoChat-JSQSystemSoundPlayer-Private.xcconfig"; sourceTree = "<group>"; };
+		F0C22295C64C33E3057E9DBC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		F0DB54C896361FC7803298FF /* NSString+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JSQMessages.m"; path = "JSQMessagesViewController/Categories/NSString+JSQMessages.m"; sourceTree = "<group>"; };
+		F125402A2CF45F1604097F14 /* UIDevice+JSQMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+JSQMessages.h"; path = "JSQMessagesViewController/Categories/UIDevice+JSQMessages.h"; sourceTree = "<group>"; };
+		F1FD7D9C3EC6F6530F6F45B0 /* MTLValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLValueTransformer.h; path = Mantle/MTLValueTransformer.h; sourceTree = "<group>"; };
+		F21D202CB5E2D9CFB2DB4665 /* MTLValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLValueTransformer.m; path = Mantle/MTLValueTransformer.m; sourceTree = "<group>"; };
+		F30C97D54661D38FAC07F927 /* JSQMessagesAvatarImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesAvatarImage.m; path = JSQMessagesViewController/Model/JSQMessagesAvatarImage.m; sourceTree = "<group>"; };
+		F48CB9823F0EBE1568954CE7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		F643B37DC8AA6D4D42B0BFF0 /* SyncanoResponse_Projects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoResponse_Projects.h; path = Syncano/Responses/Projects/SyncanoResponse_Projects.h; sourceTree = "<group>"; };
+		F86099D7FE07C5712D9C9F06 /* Syncano+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Syncano+Private.h"; path = "Syncano/Syncano+Private.h"; sourceTree = "<group>"; };
+		F8724EB746A6E432B80F9DD3 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = Mantle/extobjc/EXTScope.h; sourceTree = "<group>"; };
+		FB255BF092263650866C9E53 /* JSQMessagesComposerTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSQMessagesComposerTextView.m; path = JSQMessagesViewController/Views/JSQMessagesComposerTextView.m; sourceTree = "<group>"; };
+		FC8EB0E320B9F18206F5E68B /* SyncanoSyncServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncanoSyncServer.h; path = Syncano/SyncanoSyncServer.h; sourceTree = "<group>"; };
+		FC9B66E9BE69FEAF77D61C8F /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		FD120B88EA22E934B2845653 /* JSQSystemSoundPlayer+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSQSystemSoundPlayer+JSQMessages.m"; path = "JSQMessagesViewController/Categories/JSQSystemSoundPlayer+JSQMessages.m"; sourceTree = "<group>"; };
+		FD4C8490CD17BA404A6007C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FE43C60C2CD55696415ED212 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		FF4C36C4E3479676D88D503E /* JSQMessageAvatarImageDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSQMessageAvatarImageDataSource.h; path = JSQMessagesViewController/Model/JSQMessageAvatarImageDataSource.h; sourceTree = "<group>"; };
+		FF8E8DDD7CFDC379C0436C47 /* NSBundle+JSQMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+JSQMessages.m"; path = "JSQMessagesViewController/Categories/NSBundle+JSQMessages.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DA3E7530F65D7BBBF376277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4426C0E85E49C89181C01AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B32B7A7D688E72233F38DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B42044885C715B720B6F67E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DF9857291ECCFBDD8552A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D5A09FEBFCB8BC6219F344 /* CoreGraphics.framework in Frameworks */,
+				91328C8A5327A82B8C28F1F2 /* CoreLocation.framework in Frameworks */,
+				D05BE3F920750D39BF326517 /* Foundation.framework in Frameworks */,
+				B2C6CF766CA73271CA6A034F /* MapKit.framework in Frameworks */,
+				DC9B902111EFFADCD187796E /* QuartzCore.framework in Frameworks */,
+				F397F484D4D61C22A9E811F5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A19908E92D0958BF903B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6DEF740EADF5CC0AA376EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF4BC89D4FEBDFC0A844773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD344954490D464444A660A9 /* AudioToolbox.framework in Frameworks */,
+				14782DA73A3C86B9D047D988 /* Foundation.framework in Frameworks */,
+				20D01A101D8C644D42060740 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B883E7895265B25E178231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241579E5B2FFE7E3A4680023 /* CFNetwork.framework in Frameworks */,
+				7AEDF1C97E0BA0D0E7BDFCB9 /* Foundation.framework in Frameworks */,
+				73D80C5100EB603CDD7FEAE5 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7F476273DFF347C7AACD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0620D44B87BCA09B5B17318F /* CoreGraphics.framework in Frameworks */,
+				A45A02468CC7F48A701F69D8 /* Foundation.framework in Frameworks */,
+				39124BF435FA3AFC454916F6 /* MobileCoreServices.framework in Frameworks */,
+				A009D1C2592C4DDDBEC8C7BF /* Security.framework in Frameworks */,
+				09362DF3F000E00E163D4382 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C2EE6C7D66CB89C6A81DBCE = {
+			isa = PBXGroup;
+			children = (
+				9BE7CC5F518BCD77AD7F16E7 /* Podfile */,
+				1DBC7542DD8756645FBF7EBB /* Frameworks */,
+				6728A4A526C1A7560B80FC39 /* Pods */,
+				C95C3D77062468B8550442AA /* Products */,
+				0D733E7DFEB54EC329F039F0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		0D733E7DFEB54EC329F039F0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				203C79F47A3EFC14C2A0CE17 /* Pods-SyncanoChat */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0DA9224A7DD03C9AF1000E92 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71372CDDA93E9C904CAB5A7A /* Pods-SyncanoChat-JSQMessagesViewController.xcconfig */,
+				7B64B6207393D3ED363C9473 /* Pods-SyncanoChat-JSQMessagesViewController-Private.xcconfig */,
+				A98B5127F902AC4B89B449B7 /* Pods-SyncanoChat-JSQMessagesViewController-dummy.m */,
+				758214181FBCA8B890F80014 /* Pods-SyncanoChat-JSQMessagesViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SyncanoChat-JSQMessagesViewController";
+			sourceTree = "<group>";
+		};
+		1DBC7542DD8756645FBF7EBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				461F49A3EF39954FF0FF7FEC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		203C79F47A3EFC14C2A0CE17 /* Pods-SyncanoChat */ = {
+			isa = PBXGroup;
+			children = (
+				9E5CB129B4EFF90078C3458F /* Pods-SyncanoChat-acknowledgements.markdown */,
+				2E05DD46EEC1EA4C108AD7A6 /* Pods-SyncanoChat-acknowledgements.plist */,
+				94B3A48FAFFD68135A8531CD /* Pods-SyncanoChat-dummy.m */,
+				7FCD9121FE9AE28F2E36CD20 /* Pods-SyncanoChat-environment.h */,
+				598C9A77108B48239D090BC8 /* Pods-SyncanoChat-resources.sh */,
+				9CD03604D6EBB6BE7FBE6E7E /* Pods-SyncanoChat.debug.xcconfig */,
+				0DAD3B1AC0CA04DB40D6D3B9 /* Pods-SyncanoChat.release.xcconfig */,
+			);
+			name = "Pods-SyncanoChat";
+			path = "Target Support Files/Pods-SyncanoChat";
+			sourceTree = "<group>";
+		};
+		23A95878289F49936F67DD18 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				5B679C3CF7431BE0BDA3FE89 /* AFSecurityPolicy.h */,
+				9732F8656D7DF1351CD507D0 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		262414BC3A7A0AF89501AD9E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF55DBE29603719E615FEC4A /* Pods-SyncanoChat-JSQSystemSoundPlayer.xcconfig */,
+				F07815EDB3673D5DCB667BDC /* Pods-SyncanoChat-JSQSystemSoundPlayer-Private.xcconfig */,
+				818FD53BD296B99615C9F33B /* Pods-SyncanoChat-JSQSystemSoundPlayer-dummy.m */,
+				76BE96735F330DABAB02B61E /* Pods-SyncanoChat-JSQSystemSoundPlayer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SyncanoChat-JSQSystemSoundPlayer";
+			sourceTree = "<group>";
+		};
+		27757A9FD0E467D06641E6DF /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				278CCE0521393BE0A617BA2A /* AFHTTPSessionManager.h */,
+				7FB79A1307042C8973F6AFA0 /* AFHTTPSessionManager.m */,
+				145F9F100DB3AC89C7EF6DF7 /* AFURLSessionManager.h */,
+				D3D876F767B860A56069533B /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		41E5058D734AB96D723B4891 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C7ECC300F22E6998CD33201 /* Pods-SyncanoChat-Mantle.xcconfig */,
+				785C0D83BEFE68B69E9734DF /* Pods-SyncanoChat-Mantle-Private.xcconfig */,
+				37349F6F5744697F21120B26 /* Pods-SyncanoChat-Mantle-dummy.m */,
+				64040084CC686377A27F4518 /* Pods-SyncanoChat-Mantle-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SyncanoChat-Mantle";
+			sourceTree = "<group>";
+		};
+		429EB81C0F8DB84941E25D72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE81C8A0A8B7026A997A8E34 /* JSQMessagesAssets.bundle */,
+				18F4C87B8353AB39395635CE /* JSQMessagesCollectionViewCellIncoming.xib */,
+				E4718BDA829A44F01F4C3F5A /* JSQMessagesCollectionViewCellOutgoing.xib */,
+				EEDA2A2288E9FBA23EEF9E82 /* JSQMessagesLoadEarlierHeaderView.xib */,
+				727C911E07AB0AAE819BEA22 /* JSQMessagesToolbarContentView.xib */,
+				1627792B07B1C2AFBD6C7B3B /* JSQMessagesTypingIndicatorFooterView.xib */,
+				A8DA84A8883B97E20C78632C /* JSQMessagesViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		461F49A3EF39954FF0FF7FEC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F48CB9823F0EBE1568954CE7 /* AudioToolbox.framework */,
+				7D9C0CBEE5E72401AE4AEC04 /* CFNetwork.framework */,
+				20B72380CCDEF89AE6FD25C7 /* CoreGraphics.framework */,
+				39BF7864026FE40ACA6ED988 /* CoreLocation.framework */,
+				19FB4E761A3BF95C2AFC6503 /* Foundation.framework */,
+				F0C22295C64C33E3057E9DBC /* MapKit.framework */,
+				45669D0E7A924B1D16ABE847 /* MobileCoreServices.framework */,
+				188A3EBA881C1268271FF75D /* QuartzCore.framework */,
+				4B083D6168EB8D7F24108A7C /* Security.framework */,
+				59A4FE247D84656B474EE3D4 /* SystemConfiguration.framework */,
+				FD4C8490CD17BA404A6007C4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		476A7252A0E1BB8E36FC2983 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				B3829ACA1D402FEAD224F819 /* AsyncSocket.h */,
+				D4F93241D5888B3E9A88A7EB /* AsyncSocket.m */,
+				EBBAF629326345FB15BF66C8 /* AsyncUdpSocket.h */,
+				C5FAD505AD6AEBD3CC2E67EF /* AsyncUdpSocket.m */,
+				1A79E51E4AB4E0B733619F0A /* GCDAsyncSocket.h */,
+				5E134524F682D9C3AFB90B1A /* GCDAsyncSocket.m */,
+				746793384B24C411CDD81EDF /* GCDAsyncUdpSocket.h */,
+				01B681A4CA5B329878BA1572 /* GCDAsyncUdpSocket.m */,
+				A01A198F0209BFB71A4E8E17 /* Support Files */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		4C4A5F58C875141F40326D9E /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				70B73BFFBA0FF025F8D165DE /* EXTKeyPathCoding.h */,
+				CB17F1FE5AE779A492969A8E /* EXTRuntimeExtensions.h */,
+				8E5FA5D1909BCE58F4839704 /* EXTRuntimeExtensions.m */,
+				F8724EB746A6E432B80F9DD3 /* EXTScope.h */,
+				3E173CF33E10C5E846656E2F /* EXTScope.m */,
+				C134F8CC1F16AA1BE092CEB4 /* metamacros.h */,
+			);
+			name = extobjc;
+			sourceTree = "<group>";
+		};
+		4DF2DF562D1A32A405835B6F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				29D0E5B5D8BA339D377CF40E /* AFNetworkActivityIndicatorManager.h */,
+				01EAECDE5603A9E7EDA6AEAC /* AFNetworkActivityIndicatorManager.m */,
+				719058CC178E1D42CBBF6F7E /* UIActivityIndicatorView+AFNetworking.h */,
+				BFE33D4BCEAE696DCCAEDA87 /* UIActivityIndicatorView+AFNetworking.m */,
+				26025B653FEA64BDADFAE0D9 /* UIAlertView+AFNetworking.h */,
+				639F888274DA64996CD627E5 /* UIAlertView+AFNetworking.m */,
+				640D161BC3A65A355B4EA6B8 /* UIButton+AFNetworking.h */,
+				673FCD3AD87079B2E5D92AA5 /* UIButton+AFNetworking.m */,
+				9A31D65E7E3A4B36A2F36456 /* UIImageView+AFNetworking.h */,
+				37F48160D7D4C6065C842E40 /* UIImageView+AFNetworking.m */,
+				7A074DE001B144E0D10D29AE /* UIKit+AFNetworking.h */,
+				401A38754C376533E8F5EB07 /* UIProgressView+AFNetworking.h */,
+				CF11CB52579BE2399E08379A /* UIProgressView+AFNetworking.m */,
+				FE43C60C2CD55696415ED212 /* UIRefreshControl+AFNetworking.h */,
+				67519D7080A7D5CCF9847655 /* UIRefreshControl+AFNetworking.m */,
+				13305D83433AA2295381AE4A /* UIWebView+AFNetworking.h */,
+				D25525C9D0F16796D18A657E /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		6710271FE5276A2C17AF07F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94E9893934B80C249CB31FE /* Pods-SyncanoChat-syncano-ios.xcconfig */,
+				8F6109D45FEC64908D4ACC9E /* Pods-SyncanoChat-syncano-ios-Private.xcconfig */,
+				8744BDAEED5C298339713656 /* Pods-SyncanoChat-syncano-ios-dummy.m */,
+				4F86EB10B5CABBC089576BBC /* Pods-SyncanoChat-syncano-ios-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SyncanoChat-syncano-ios";
+			sourceTree = "<group>";
+		};
+		6728A4A526C1A7560B80FC39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB8FA9D29C7D7F12408889AC /* AFNetworking */,
+				476A7252A0E1BB8E36FC2983 /* CocoaAsyncSocket */,
+				EF98F7EE54D729C7904F9C87 /* JSQMessagesViewController */,
+				89230449DBB658F2BE4D890D /* JSQSystemSoundPlayer */,
+				EF1D6E1DE76592AAD7E53F4B /* Mantle */,
+				B15429F6E251115A8B33AD65 /* syncano-ios */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84F934882D59314D494E1402 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C93B9556B818EE1BB620EE9 /* server.der */,
+				41059774E29C4895DE563B0D /* syncano-ios.podspec.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		89230449DBB658F2BE4D890D /* JSQSystemSoundPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				37E893150CEEF9BD8C209175 /* JSQSystemSoundPlayer.h */,
+				A9CBBCB6C52713E6D2BEC3C8 /* JSQSystemSoundPlayer.m */,
+				262414BC3A7A0AF89501AD9E /* Support Files */,
+			);
+			path = JSQSystemSoundPlayer;
+			sourceTree = "<group>";
+		};
+		A01A198F0209BFB71A4E8E17 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C8513F81859FE6E5FA201 /* Pods-SyncanoChat-CocoaAsyncSocket.xcconfig */,
+				3BB187495247B7D3196671B9 /* Pods-SyncanoChat-CocoaAsyncSocket-Private.xcconfig */,
+				06CF7911B8C722C56136E55F /* Pods-SyncanoChat-CocoaAsyncSocket-dummy.m */,
+				99033FE3DCF84069E9F2AB56 /* Pods-SyncanoChat-CocoaAsyncSocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SyncanoChat-CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		A55D6CE7F523A690BAA5AE76 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				13EB0E4E28626D913637E723 /* AFNetworkReachabilityManager.h */,
+				583312D12A47AC17514969CC /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		AE68F9E7A7E3988A745C2371 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				A2F86EA048C6489B65690109 /* AFURLRequestSerialization.h */,
+				8AF5B3F9CB886282BA0D5B8D /* AFURLRequestSerialization.m */,
+				A232718FBEE6E17629948B4F /* AFURLResponseSerialization.h */,
+				6BD8C22BBFBE28B94C5F000A /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		B15429F6E251115A8B33AD65 /* syncano-ios */ = {
+			isa = PBXGroup;
+			children = (
+				837DC0D9A01306115DFD098C /* Syncano.h */,
+				19F4BC550D4549D293A47446 /* Syncano.m */,
+				F86099D7FE07C5712D9C9F06 /* Syncano+Private.h */,
+				D32EF15F9B1407EC694D9683 /* SyncanoDateFormatter.h */,
+				DF97BA5C1DC4E7E526AFFDB1 /* SyncanoDateFormatter.m */,
+				D029D0D2FBA8CAF8919563A3 /* SyncanoObjects.h */,
+				E56532A3B3A7A805E0C0FD4D /* SyncanoObjects.m */,
+				D6414481124F2E53649700FD /* SyncanoObjects_Private.h */,
+				0F90E26E95C95780515CBE3E /* SyncanoObjects_Private.m */,
+				E1D9AAD3E487357899CB1CC3 /* SyncanoParameters.h */,
+				C1DD3FF718A8123CAFCFA60A /* SyncanoParameters.m */,
+				84488D63EFA47E3BC58C17EA /* SyncanoParametersListing.h */,
+				3F6CE306326F0193A95BCF74 /* SyncanoParameters_APIKeys.h */,
+				7829841A7183EE095F5F0C92 /* SyncanoParameters_APIKeys.m */,
+				68C8E65B870A628E23BE2D57 /* SyncanoParameters_Administrators.h */,
+				4D82CAD85426E68BCE3DAD11 /* SyncanoParameters_Administrators.m */,
+				79D310291983286F6361ED54 /* SyncanoParameters_Collections.h */,
+				24BDF1781F4DD3A3E1F340E6 /* SyncanoParameters_Collections.m */,
+				5CADED34B921915654CB5495 /* SyncanoParameters_Connections.h */,
+				123A83F80C8F82CA224DA777 /* SyncanoParameters_Connections.m */,
+				56C1E94074DF774185F94F6B /* SyncanoParameters_DataObjects.h */,
+				2A8721316C2FC4E53EB58E56 /* SyncanoParameters_DataObjects.m */,
+				8AB16CD7B5084083490DD62F /* SyncanoParameters_Folders.h */,
+				4A01303318B1C787F3119767 /* SyncanoParameters_Folders.m */,
+				03FC7CB29A865A5816525CDC /* SyncanoParameters_Notifications.h */,
+				6CAE079BA62C53B77FB75FB1 /* SyncanoParameters_Notifications.m */,
+				08EBD636D48B9B258E9F5A32 /* SyncanoParameters_PermissionRoles.h */,
+				3F56AB834A3ED413A3737EE9 /* SyncanoParameters_PermissionRoles.m */,
+				3BA9690D18C7F35B6D3C2710 /* SyncanoParameters_Private.h */,
+				1DDA356F5AFB96F83BA9E902 /* SyncanoParameters_Projects.h */,
+				30BA6918EE64ED49AA823665 /* SyncanoParameters_Projects.m */,
+				2997913D003C76DB4FE28DAC /* SyncanoParameters_Subscriptions.h */,
+				2144FBD91DEC3E1E833DFF05 /* SyncanoParameters_Subscriptions.m */,
+				15D95CD125501BD7E16C1F14 /* SyncanoParameters_Users.h */,
+				9DDFA745CAB59BDE7DA4F4D9 /* SyncanoParameters_Users.m */,
+				768085018FF3AFE64C2307C7 /* SyncanoProtocolAPIKeys.h */,
+				6C024C5D944445BF963CF0C4 /* SyncanoProtocolAdministrators.h */,
+				6BB7DDA922FF8C06CF4BE277 /* SyncanoProtocolCollections.h */,
+				9DAC930CCD2BCE29FD6C55A8 /* SyncanoProtocolConnections.h */,
+				E68F24CD767DFC0D1780C349 /* SyncanoProtocolDataObjects.h */,
+				8271035D2754DA8E5B9BD817 /* SyncanoProtocolFolders.h */,
+				BAC7D767FA41C8908CA2063A /* SyncanoProtocolNotification.h */,
+				4E91ED24F7E83CA9719AE737 /* SyncanoProtocolPermissionRoles.h */,
+				4955A33580E335D75FFC9752 /* SyncanoProtocolProjects.h */,
+				9B55F6CF89642D4F258885C7 /* SyncanoProtocolRequest.h */,
+				60EB9B9ED48E8E9F16C1F830 /* SyncanoProtocolSubscriptions.h */,
+				0084D758EE40A1C9BBCCA685 /* SyncanoProtocolUsers.h */,
+				93C3F23758320098A087B060 /* SyncanoProtocolsListing.h */,
+				2DCA259547E2F569A56F9E5D /* SyncanoReachability.h */,
+				77DB783C6EF9F9D6A101B401 /* SyncanoReachability.m */,
+				CE0F423A4903F45D7798F0E1 /* SyncanoResponse.h */,
+				63C16E9DA35D1E4868A7888A /* SyncanoResponse.m */,
+				E8AD98281E06222CC5191BF8 /* SyncanoResponse_APIKeys.h */,
+				9E4BED3B7A96EC11FAD18D8C /* SyncanoResponse_APIKeys.m */,
+				3FAAB926DD28E75BBD323161 /* SyncanoResponse_Administrators.h */,
+				D5F5561282E2CAA14799D456 /* SyncanoResponse_Administrators.m */,
+				7968E745A371AE1C3FAAA7DC /* SyncanoResponse_Collections.h */,
+				A99945F9333525A1107181D9 /* SyncanoResponse_Collections.m */,
+				E821B2E25FF543E306BE7247 /* SyncanoResponse_Connections.h */,
+				C4DB025561DC26BE06E98196 /* SyncanoResponse_Connections.m */,
+				5394458EFD6438ADDC09403F /* SyncanoResponse_DataObjects.h */,
+				82A0A19197F21ABAFE120F04 /* SyncanoResponse_DataObjects.m */,
+				3962E77E49448857FA264A1E /* SyncanoResponse_Folders.h */,
+				72897DC138C1EBFB67133A95 /* SyncanoResponse_Folders.m */,
+				00E948A460C298D150B2BC23 /* SyncanoResponse_Notifications.h */,
+				710009E3E5E7402B439D1787 /* SyncanoResponse_Notifications.m */,
+				041BA713D52BC3B838174926 /* SyncanoResponse_PermissionRoles.h */,
+				38BEAD31129014AABC5D4D1C /* SyncanoResponse_PermissionRoles.m */,
+				5ED56E07CCBC4E76FA1212F7 /* SyncanoResponse_Private.h */,
+				F643B37DC8AA6D4D42B0BFF0 /* SyncanoResponse_Projects.h */,
+				CC9D79CA754EFB547A163052 /* SyncanoResponse_Projects.m */,
+				8E20628A881E468BF253784E /* SyncanoResponse_Subscriptions.h */,
+				485970F0D0180DCF609BBEDD /* SyncanoResponse_Subscriptions.m */,
+				CF59320DDA671CE5C467A5C0 /* SyncanoResponse_Users.h */,
+				91BB8EA3AB5E929EED692F9B /* SyncanoResponse_Users.m */,
+				B763E164F0421CB93C1B388B /* SyncanoResponsesListing.h */,
+				FC8EB0E320B9F18206F5E68B /* SyncanoSyncServer.h */,
+				1801313C06A2F39DFA0482FC /* SyncanoSyncServer.m */,
+				A0AD8F9E9F8119EAC65EEF4D /* syncano-ios-library-Prefix.pch */,
+				84F934882D59314D494E1402 /* Resources */,
+				6710271FE5276A2C17AF07F9 /* Support Files */,
+			);
+			path = "syncano-ios";
+			sourceTree = "<group>";
+		};
+		BF376AFB4627D604940CDA51 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				1205CB94014BAFD0EC329A14 /* AFHTTPRequestOperation.h */,
+				4AC223F793F5F29880E654C4 /* AFHTTPRequestOperation.m */,
+				C8FEA332786CF1091687D2A3 /* AFHTTPRequestOperationManager.h */,
+				FC9B66E9BE69FEAF77D61C8F /* AFHTTPRequestOperationManager.m */,
+				B19FB18BF10F8496EAD8C01D /* AFURLConnectionOperation.h */,
+				36184A5301B94947CBB1E323 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		C95C3D77062468B8550442AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3431927B65FF7D426C1A2A5C /* libPods-SyncanoChat.a */,
+				601A484A6277070D487CF429 /* libPods-SyncanoChat-AFNetworking.a */,
+				8344DF51515EA17FCFDE02CF /* libPods-SyncanoChat-CocoaAsyncSocket.a */,
+				39E6CFCC3A23128FFF84E5CA /* libPods-SyncanoChat-JSQMessagesViewController.a */,
+				90F8ABCD4063B4B8FECD85C0 /* libPods-SyncanoChat-JSQSystemSoundPlayer.a */,
+				2A0B2363946E00F5FACC41E2 /* libPods-SyncanoChat-Mantle.a */,
+				7268122E39E541DCBACA0874 /* libPods-SyncanoChat-syncano-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1135377DA2B6D3CE571128C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FFD4F8BD3F9D904791BB277 /* Pods-SyncanoChat-AFNetworking.xcconfig */,
+				C48C62F2907FF09A21E6289A /* Pods-SyncanoChat-AFNetworking-Private.xcconfig */,
+				6238DC02DC158E19021BFDD0 /* Pods-SyncanoChat-AFNetworking-dummy.m */,
+				1BACA8BC1CFACB2D7E7C760A /* Pods-SyncanoChat-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SyncanoChat-AFNetworking";
+			sourceTree = "<group>";
+		};
+		EF1D6E1DE76592AAD7E53F4B /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				0D350DDF71A98A5C92F87CBB /* MTLJSONAdapter.h */,
+				732C602ACE2B8BE516295132 /* MTLJSONAdapter.m */,
+				D8660F9115CFFD32084D6905 /* MTLManagedObjectAdapter.h */,
+				4F68BA9B4E55E41CE5BAD724 /* MTLManagedObjectAdapter.m */,
+				3EA4DC60B52B2107EF411611 /* MTLModel.h */,
+				E650C8C758AE04E8BD2FEE55 /* MTLModel.m */,
+				74B8684FF0155B09FF7B3FDF /* MTLModel+NSCoding.h */,
+				E55069A6443C5615800CDBCE /* MTLModel+NSCoding.m */,
+				F01A9C1986BBF98363747DFF /* MTLReflection.h */,
+				865C4F7BE93FE95C8033BB0C /* MTLReflection.m */,
+				F1FD7D9C3EC6F6530F6F45B0 /* MTLValueTransformer.h */,
+				F21D202CB5E2D9CFB2DB4665 /* MTLValueTransformer.m */,
+				8F4F71222FA99B3725ABBFD0 /* Mantle.h */,
+				6A033C95EF2167FF90FB5FF6 /* NSArray+MTLManipulationAdditions.h */,
+				3917BBC95D4C1C2D070323E4 /* NSArray+MTLManipulationAdditions.m */,
+				ECCDEA9526EC0E5AAE3B1A8A /* NSDictionary+MTLManipulationAdditions.h */,
+				1AA59F407D1E0BFA5182B115 /* NSDictionary+MTLManipulationAdditions.m */,
+				67738F5C1477B97FFCE5235C /* NSError+MTLModelException.h */,
+				48F6634403F20F73996B9F51 /* NSError+MTLModelException.m */,
+				915378EB87B9CFD2727BC401 /* NSObject+MTLComparisonAdditions.h */,
+				0B52CA8E7A917AC1B0510940 /* NSObject+MTLComparisonAdditions.m */,
+				467354BAA160D6A69E153155 /* NSValueTransformer+MTLInversionAdditions.h */,
+				8E1695EE48FF7BBE3487D3FD /* NSValueTransformer+MTLInversionAdditions.m */,
+				4C899A7AF9AD70D5099EF111 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */,
+				AE48A6E7FDD1BA361667E859 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */,
+				41E5058D734AB96D723B4891 /* Support Files */,
+				4C4A5F58C875141F40326D9E /* extobjc */,
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		EF98F7EE54D729C7904F9C87 /* JSQMessagesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6861EE349A3BC2988B8176EE /* JSQLocationMediaItem.h */,
+				27AB277FC640579CC95930B3 /* JSQLocationMediaItem.m */,
+				E39AA40BBBC2557CA4273A49 /* JSQMediaItem.h */,
+				E8C7D1ADA20736DB1D1FB6DA /* JSQMediaItem.m */,
+				431A8AA72B6522D47F5FAB27 /* JSQMessage.h */,
+				50163F2DEB54EE394B02B22A /* JSQMessage.m */,
+				FF4C36C4E3479676D88D503E /* JSQMessageAvatarImageDataSource.h */,
+				E72EE0038CAA3D908D9ECBE5 /* JSQMessageBubbleImageDataSource.h */,
+				5A6C8F5419B28E4DFBF9A2A4 /* JSQMessageData.h */,
+				A11B7C8BC206980EA97DB4CA /* JSQMessageMediaData.h */,
+				06FF19A3CDC8E4D7F65D161F /* JSQMessages.h */,
+				5A57EDB9A865895FE400A105 /* JSQMessagesAvatarImage.h */,
+				F30C97D54661D38FAC07F927 /* JSQMessagesAvatarImage.m */,
+				051AFF58FC731A5ADD2BAD89 /* JSQMessagesAvatarImageFactory.h */,
+				74FFB7F009192D7A748DD7E4 /* JSQMessagesAvatarImageFactory.m */,
+				28E598996AE2A1731FADCE01 /* JSQMessagesBubbleImage.h */,
+				D687E7AEA364713121C01F44 /* JSQMessagesBubbleImage.m */,
+				C93F24D97307AC10E241B9BF /* JSQMessagesBubbleImageFactory.h */,
+				4880C9F4FC146304F89A8494 /* JSQMessagesBubbleImageFactory.m */,
+				D1A75159DAF164C0D3862422 /* JSQMessagesCellTextView.h */,
+				4098F283BDBBFE158B74CD5A /* JSQMessagesCellTextView.m */,
+				06F10AF108B27F372771F59B /* JSQMessagesCollectionView.h */,
+				51F4DB282D9C07900DAF6150 /* JSQMessagesCollectionView.m */,
+				4BC9BAC33E62170FA1D8AF0B /* JSQMessagesCollectionViewCell.h */,
+				2E301663C365C84D0689614D /* JSQMessagesCollectionViewCell.m */,
+				8909CC31A6E373B32431217D /* JSQMessagesCollectionViewCellIncoming.h */,
+				756C70DE315F1475894FF0D1 /* JSQMessagesCollectionViewCellIncoming.m */,
+				CF585B05C156C33DEB6900FF /* JSQMessagesCollectionViewCellOutgoing.h */,
+				A088705EADE2345E9B5938B1 /* JSQMessagesCollectionViewCellOutgoing.m */,
+				6F6F8050946D03CC54AF722F /* JSQMessagesCollectionViewDataSource.h */,
+				701C41F9130BED8820B1BAF8 /* JSQMessagesCollectionViewDelegateFlowLayout.h */,
+				920EB3449513737359E85F19 /* JSQMessagesCollectionViewFlowLayout.h */,
+				50BD65F9CB0A7AC482B34AF4 /* JSQMessagesCollectionViewFlowLayout.m */,
+				AF5476F348F405B37F97C4CE /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.h */,
+				B63AE2537A52793DEACCCF94 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.m */,
+				010B73E70009583C95BE8D52 /* JSQMessagesCollectionViewLayoutAttributes.h */,
+				6DC443AD8AC78F34BB8F3079 /* JSQMessagesCollectionViewLayoutAttributes.m */,
+				1B70301796CE17E13DB3E8E2 /* JSQMessagesComposerTextView.h */,
+				FB255BF092263650866C9E53 /* JSQMessagesComposerTextView.m */,
+				63B7CC6F39D40C4BD4DCBB6B /* JSQMessagesInputToolbar.h */,
+				46A689CD1B32B9B64F78D735 /* JSQMessagesInputToolbar.m */,
+				2875CB0634AE1709E6636320 /* JSQMessagesKeyboardController.h */,
+				E11ED6E17CC3CA93F1BEF937 /* JSQMessagesKeyboardController.m */,
+				814443C9BABC8A011FB9A548 /* JSQMessagesLabel.h */,
+				6DF7FC9F0008FE42C26880B5 /* JSQMessagesLabel.m */,
+				CD86B7B873E3376F9508CA8F /* JSQMessagesLoadEarlierHeaderView.h */,
+				559BE2B075D44D7B34D75A19 /* JSQMessagesLoadEarlierHeaderView.m */,
+				B03277E2C898FC1CCB1DDB3F /* JSQMessagesMediaPlaceholderView.h */,
+				A514014EDE0A3F91D14FD70C /* JSQMessagesMediaPlaceholderView.m */,
+				BB1732D6CCA25E67A6A6D590 /* JSQMessagesMediaViewBubbleImageMasker.h */,
+				686F7A8D7B47DE6A6212014C /* JSQMessagesMediaViewBubbleImageMasker.m */,
+				8FEACCCD31997930313FA0A7 /* JSQMessagesTimestampFormatter.h */,
+				6D7966E988E62FFB2A6F4A93 /* JSQMessagesTimestampFormatter.m */,
+				83FF81F90C2E688D7E7E0871 /* JSQMessagesToolbarButtonFactory.h */,
+				8F65E04700C0402307AE4DEB /* JSQMessagesToolbarButtonFactory.m */,
+				296B9C631EB283700726DA0A /* JSQMessagesToolbarContentView.h */,
+				769C89B501DDF8617C4C889A /* JSQMessagesToolbarContentView.m */,
+				13A830EF98A75D003F0E0CA2 /* JSQMessagesTypingIndicatorFooterView.h */,
+				21A02D8829BEDC40B18C124A /* JSQMessagesTypingIndicatorFooterView.m */,
+				02B2146FCAE84B1133F0F81D /* JSQMessagesViewController.h */,
+				3EB89882D03C383B39E1D5C8 /* JSQMessagesViewController.m */,
+				46061E6639C7E34387A5006C /* JSQPhotoMediaItem.h */,
+				5FBA92631EDFBA361E6CC665 /* JSQPhotoMediaItem.m */,
+				7793824DBB91C466E438A56F /* JSQSystemSoundPlayer+JSQMessages.h */,
+				FD120B88EA22E934B2845653 /* JSQSystemSoundPlayer+JSQMessages.m */,
+				09DDF98E7A9D97CA90C20CC9 /* JSQVideoMediaItem.h */,
+				4DF443B1D6DCC51E4EEFD395 /* JSQVideoMediaItem.m */,
+				98B568380692260F92005145 /* NSBundle+JSQMessages.h */,
+				FF8E8DDD7CFDC379C0436C47 /* NSBundle+JSQMessages.m */,
+				1A88BA258A2A73173ADC3AA9 /* NSString+JSQMessages.h */,
+				F0DB54C896361FC7803298FF /* NSString+JSQMessages.m */,
+				32DE28E21287077703606F86 /* UIColor+JSQMessages.h */,
+				B72FD2A0434B880C2307EBFF /* UIColor+JSQMessages.m */,
+				F125402A2CF45F1604097F14 /* UIDevice+JSQMessages.h */,
+				57EA66106FD18A603B88E6B0 /* UIDevice+JSQMessages.m */,
+				EC519334146F5E2AFD148882 /* UIImage+JSQMessages.h */,
+				AB55C7C3A1285340FC5AE30B /* UIImage+JSQMessages.m */,
+				471DD5665E0B34B7C8E11315 /* UIView+JSQMessages.h */,
+				C18F65BABD0694C49B0DA1FA /* UIView+JSQMessages.m */,
+				429EB81C0F8DB84941E25D72 /* Resources */,
+				0DA9224A7DD03C9AF1000E92 /* Support Files */,
+			);
+			path = JSQMessagesViewController;
+			sourceTree = "<group>";
+		};
+		FB8FA9D29C7D7F12408889AC /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				0D89FC93F2F7801605FB3216 /* AFNetworking.h */,
+				BF376AFB4627D604940CDA51 /* NSURLConnection */,
+				27757A9FD0E467D06641E6DF /* NSURLSession */,
+				A55D6CE7F523A690BAA5AE76 /* Reachability */,
+				23A95878289F49936F67DD18 /* Security */,
+				AE68F9E7A7E3988A745C2371 /* Serialization */,
+				D1135377DA2B6D3CE571128C /* Support Files */,
+				4DF2DF562D1A32A405835B6F /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A12300C12429FCDF9B32BC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5AE15DA506D8D3D02F6490 /* AFHTTPRequestOperation.h in Headers */,
+				AD60DDB3F576324B94E319F6 /* AFHTTPRequestOperationManager.h in Headers */,
+				11E42CDFCACD2D0F15EEA042 /* AFHTTPSessionManager.h in Headers */,
+				29DC11B32ECD52533AC7ECF8 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				5A3535A235A0953A666FCE90 /* AFNetworkReachabilityManager.h in Headers */,
+				1AE3FAD816113EBE0E322CAF /* AFNetworking.h in Headers */,
+				CCED22968E61E4EB9AEE52BE /* AFSecurityPolicy.h in Headers */,
+				B0A6D6639FF3ED765FE2C273 /* AFURLConnectionOperation.h in Headers */,
+				B0729CFACFD02CFDA2E6CAFB /* AFURLRequestSerialization.h in Headers */,
+				42569B0BF20988E4844C5E9D /* AFURLResponseSerialization.h in Headers */,
+				36C53B13E0766D3F01E8657C /* AFURLSessionManager.h in Headers */,
+				3DF64256D23F305B00B7BE5F /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				52EB70700200A033777D40AB /* UIAlertView+AFNetworking.h in Headers */,
+				9328B05CA96F8931F7A7303D /* UIButton+AFNetworking.h in Headers */,
+				03EABC6CDA724D7814B03BE4 /* UIImageView+AFNetworking.h in Headers */,
+				A2DA621B44214E2611010888 /* UIKit+AFNetworking.h in Headers */,
+				CC18F9521C54D4106B0E39C7 /* UIProgressView+AFNetworking.h in Headers */,
+				BDF59004BB7D58780D7A2D52 /* UIRefreshControl+AFNetworking.h in Headers */,
+				6B76195B347207853CE3F707 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FFBFF2A92193EE70C11D7F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA6590CA6F1AE592226C50E /* AsyncSocket.h in Headers */,
+				2AD1F6D660FB07B6398E1E48 /* AsyncUdpSocket.h in Headers */,
+				432BC7C4E1557AC4301097FA /* GCDAsyncSocket.h in Headers */,
+				4911E5E466D9265230BB8BA9 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E9038DD886E71503013D0AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F93E44C4BF7FF9649DA16C1 /* EXTKeyPathCoding.h in Headers */,
+				F4DE5DEFEEB2824BE84E6066 /* EXTRuntimeExtensions.h in Headers */,
+				7D1E520DBE38989AB183EBC8 /* EXTScope.h in Headers */,
+				DC7518752FC42EB3AA5E88F4 /* MTLJSONAdapter.h in Headers */,
+				2CE6B9E2D89CC3EA1CF654A2 /* MTLManagedObjectAdapter.h in Headers */,
+				275A6DAB101713E6DFED9B39 /* MTLModel+NSCoding.h in Headers */,
+				D60F3D38E8B61C789B1D5115 /* MTLModel.h in Headers */,
+				80C07D0279B3C993533C2099 /* MTLReflection.h in Headers */,
+				C52E1D41601B314157500FF1 /* MTLValueTransformer.h in Headers */,
+				1EF22E95F3087F1DC806F7DB /* Mantle.h in Headers */,
+				C74EC0C497FAE996E6C5CBCD /* NSArray+MTLManipulationAdditions.h in Headers */,
+				6073295BC2C3BF2F5AF1CC03 /* NSDictionary+MTLManipulationAdditions.h in Headers */,
+				10CA151331EA32F41D9837A0 /* NSError+MTLModelException.h in Headers */,
+				17A543B8A67E19A596A28784 /* NSObject+MTLComparisonAdditions.h in Headers */,
+				FC5B61D2FCEAF101428779E2 /* NSValueTransformer+MTLInversionAdditions.h in Headers */,
+				52649E0C17C60CA84A2A458D /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */,
+				E2E61E6BC01F3A8B236C5139 /* metamacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4993577AC7204FAC4D69DF50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9E156E0CC804B834972EF9 /* Syncano+Private.h in Headers */,
+				C358AECFBFE20E1057201B7A /* Syncano.h in Headers */,
+				A63D70B758A6BE991E8AA312 /* SyncanoDateFormatter.h in Headers */,
+				34139536F962B1F4D4BEDE30 /* SyncanoObjects.h in Headers */,
+				318C48A6C05F766CA1D345EC /* SyncanoObjects_Private.h in Headers */,
+				0D9FB93699961014EDE30593 /* SyncanoParameters.h in Headers */,
+				0781EEA9D89AF114208A8F8E /* SyncanoParametersListing.h in Headers */,
+				F7865095206D6458DBD785E3 /* SyncanoParameters_APIKeys.h in Headers */,
+				DA4325D9E6C3F043E376D97B /* SyncanoParameters_Administrators.h in Headers */,
+				D504EF1D6E61249FF75E38B2 /* SyncanoParameters_Collections.h in Headers */,
+				EC92ED1CEFCB80B002D68B06 /* SyncanoParameters_Connections.h in Headers */,
+				2CEE91F1A42125C4DD5DE4F2 /* SyncanoParameters_DataObjects.h in Headers */,
+				C3C036DC402DC2E8BAC49A95 /* SyncanoParameters_Folders.h in Headers */,
+				A6319E8B614AF837BBB7DEB3 /* SyncanoParameters_Notifications.h in Headers */,
+				87B65D566A30F1E0A731D50F /* SyncanoParameters_PermissionRoles.h in Headers */,
+				253A6C2AEF04B9E204EB52F1 /* SyncanoParameters_Private.h in Headers */,
+				699BFDD68EA3A5400A8EBF90 /* SyncanoParameters_Projects.h in Headers */,
+				195055250F1FB883D93A5201 /* SyncanoParameters_Subscriptions.h in Headers */,
+				6BDE875A9CEB4B48AAFB38E8 /* SyncanoParameters_Users.h in Headers */,
+				851C975D4154D96898D0764D /* SyncanoProtocolAPIKeys.h in Headers */,
+				D5C773FDEF9C6D92CD3DD0D4 /* SyncanoProtocolAdministrators.h in Headers */,
+				35D16B8EA36F4C00501610AB /* SyncanoProtocolCollections.h in Headers */,
+				FF508635F581ED8F58CFEB16 /* SyncanoProtocolConnections.h in Headers */,
+				877DB603334B68AF3B39B9C0 /* SyncanoProtocolDataObjects.h in Headers */,
+				37E320399F8FB28AF1EAA9ED /* SyncanoProtocolFolders.h in Headers */,
+				7D6BCAEC81A0B546502AE86B /* SyncanoProtocolNotification.h in Headers */,
+				96DEDA5BF18F6C4FDDF5E2EA /* SyncanoProtocolPermissionRoles.h in Headers */,
+				AB403C2DBAEE72462C081FD4 /* SyncanoProtocolProjects.h in Headers */,
+				160ACDC7EAE51C58EF59D879 /* SyncanoProtocolRequest.h in Headers */,
+				C6AC14CE393976BD2B94DED9 /* SyncanoProtocolSubscriptions.h in Headers */,
+				C759A7E59E3EE419893D954C /* SyncanoProtocolUsers.h in Headers */,
+				EF163BC8816DF6AE3F369A96 /* SyncanoProtocolsListing.h in Headers */,
+				AA48DB636EDAC4CF3E7CD0DC /* SyncanoReachability.h in Headers */,
+				934D26548987478FF262BDFC /* SyncanoResponse.h in Headers */,
+				CFA837A5296E9DC8C2ABC71B /* SyncanoResponse_APIKeys.h in Headers */,
+				4D2E152E10A44D9927EBDB16 /* SyncanoResponse_Administrators.h in Headers */,
+				21709613EEF4C32913489AA6 /* SyncanoResponse_Collections.h in Headers */,
+				B994BFE727BE841FC6E327E0 /* SyncanoResponse_Connections.h in Headers */,
+				A8A9521C1D77F86204E0E3F3 /* SyncanoResponse_DataObjects.h in Headers */,
+				04EC8952C1FA1F709545A9A5 /* SyncanoResponse_Folders.h in Headers */,
+				EA1B84C941280369A23D531D /* SyncanoResponse_Notifications.h in Headers */,
+				27628AAA62E397321126B5D3 /* SyncanoResponse_PermissionRoles.h in Headers */,
+				D871B336731D28E4708F5E28 /* SyncanoResponse_Private.h in Headers */,
+				492ABF728626A3F99D0F6D68 /* SyncanoResponse_Projects.h in Headers */,
+				0D66093E85A9E32B6944A8B1 /* SyncanoResponse_Subscriptions.h in Headers */,
+				0FCA6383E2F0E510DC85097C /* SyncanoResponse_Users.h in Headers */,
+				B4756D9E0A3DC659A433A843 /* SyncanoResponsesListing.h in Headers */,
+				B2FCAC7BEEDAC452860BF20B /* SyncanoSyncServer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C964890B59A39500384755 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2DF8DA8331FC76C15A41BA /* JSQSystemSoundPlayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		984ACD94036FC2E113198253 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A7AD0DF0D34A53A7AF1E84 /* JSQLocationMediaItem.h in Headers */,
+				8D46B7DF3852EB9E53D0AC2F /* JSQMediaItem.h in Headers */,
+				DD4C86ED4CCD68A51F74A99B /* JSQMessage.h in Headers */,
+				21D4CEDF998D17F5C97057C6 /* JSQMessageAvatarImageDataSource.h in Headers */,
+				BCA0E0BA4EE2E877ED7F607C /* JSQMessageBubbleImageDataSource.h in Headers */,
+				C42B0454ED63CDC76A8AE42B /* JSQMessageData.h in Headers */,
+				9293CF53B6EACD04768C7550 /* JSQMessageMediaData.h in Headers */,
+				B7DB847A77E96132C1A6DEC5 /* JSQMessages.h in Headers */,
+				27645DAB4E4AF26FAAA27DAF /* JSQMessagesAvatarImage.h in Headers */,
+				14E8BB9A70E732E0FCAAF4EE /* JSQMessagesAvatarImageFactory.h in Headers */,
+				025A196FC8F14B9DF11CE67E /* JSQMessagesBubbleImage.h in Headers */,
+				3E115053A8B6CF134B20B12C /* JSQMessagesBubbleImageFactory.h in Headers */,
+				C3860D5108E3C600BE8E0CB8 /* JSQMessagesCellTextView.h in Headers */,
+				CB09289671A33A99F9259891 /* JSQMessagesCollectionView.h in Headers */,
+				10FAF7D4B44FB929641B84EC /* JSQMessagesCollectionViewCell.h in Headers */,
+				38DEBBD8B693E1750506FCB6 /* JSQMessagesCollectionViewCellIncoming.h in Headers */,
+				0CC4D46904FCBA03E7F3FD74 /* JSQMessagesCollectionViewCellOutgoing.h in Headers */,
+				53C313BDA9A42F552BB3F721 /* JSQMessagesCollectionViewDataSource.h in Headers */,
+				A7C9B905A8E111ECE8188E3E /* JSQMessagesCollectionViewDelegateFlowLayout.h in Headers */,
+				4871885528411DE2B2E3F0B7 /* JSQMessagesCollectionViewFlowLayout.h in Headers */,
+				796665A0CA331650CC59ED58 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.h in Headers */,
+				A549E2D7F1A3583FA3D257B8 /* JSQMessagesCollectionViewLayoutAttributes.h in Headers */,
+				374798CEB0BE8CDD9722B96B /* JSQMessagesComposerTextView.h in Headers */,
+				B6756508733A5043CE05C3D3 /* JSQMessagesInputToolbar.h in Headers */,
+				2F5D3A553830151A27EB65EA /* JSQMessagesKeyboardController.h in Headers */,
+				BFACDECC9204D72C0965CB47 /* JSQMessagesLabel.h in Headers */,
+				0C607E6877E4FFB54BBBA9D7 /* JSQMessagesLoadEarlierHeaderView.h in Headers */,
+				B594F8A497311C1657BB39AC /* JSQMessagesMediaPlaceholderView.h in Headers */,
+				301067B86FA422C01B356377 /* JSQMessagesMediaViewBubbleImageMasker.h in Headers */,
+				01F5949DF5BF969BE4BA8DEF /* JSQMessagesTimestampFormatter.h in Headers */,
+				A9EA4757594518BE4A8DE0D3 /* JSQMessagesToolbarButtonFactory.h in Headers */,
+				CBD58AA60B99C44E1DD82FDA /* JSQMessagesToolbarContentView.h in Headers */,
+				37D32644CB25D1F6E2D2A941 /* JSQMessagesTypingIndicatorFooterView.h in Headers */,
+				E142F3A4D85160FC42B26C82 /* JSQMessagesViewController.h in Headers */,
+				4D608BE74BD17CA0C750629C /* JSQPhotoMediaItem.h in Headers */,
+				1FD584D64941F42F69811A1F /* JSQSystemSoundPlayer+JSQMessages.h in Headers */,
+				7E6ABDBBAACBFF30394BFF4D /* JSQVideoMediaItem.h in Headers */,
+				CEC3135CB03D98E3D0B9E595 /* NSBundle+JSQMessages.h in Headers */,
+				F447371CCD431116E00F8162 /* NSString+JSQMessages.h in Headers */,
+				F113F84A6AAACB2EE1C9E707 /* UIColor+JSQMessages.h in Headers */,
+				4B7F09A342B1DC630A7F127C /* UIDevice+JSQMessages.h in Headers */,
+				837DC086DBFFCB6B1D718E62 /* UIImage+JSQMessages.h in Headers */,
+				47E9523F62F7C2BF4CA68543 /* UIView+JSQMessages.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EFA2E129E18CF3B87771AD7 /* Pods-SyncanoChat-JSQSystemSoundPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16987BD03152F84FF4486DE3 /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat-JSQSystemSoundPlayer" */;
+			buildPhases = (
+				41DCC48E0D677E4C1608803D /* Sources */,
+				8EF4BC89D4FEBDFC0A844773 /* Frameworks */,
+				86C964890B59A39500384755 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SyncanoChat-JSQSystemSoundPlayer";
+			productName = "Pods-SyncanoChat-JSQSystemSoundPlayer";
+			productReference = 90F8ABCD4063B4B8FECD85C0 /* libPods-SyncanoChat-JSQSystemSoundPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		795CCCC3DAE9736F23426627 /* Pods-SyncanoChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50351DBB9920DF0418571A21 /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat" */;
+			buildPhases = (
+				99532D323ED28EF23C225B4F /* Sources */,
+				1DA3E7530F65D7BBBF376277 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE0D91106195EC5C29B668D /* PBXTargetDependency */,
+				E9F7146840C8E5A284F73D40 /* PBXTargetDependency */,
+				DC7FD281737C2128FBD443FF /* PBXTargetDependency */,
+				D7E0F7D3E21F49A39A14CA16 /* PBXTargetDependency */,
+				16A9C67B730D5653ED532836 /* PBXTargetDependency */,
+				943B298F91947DF3B8FE6CC2 /* PBXTargetDependency */,
+			);
+			name = "Pods-SyncanoChat";
+			productName = "Pods-SyncanoChat";
+			productReference = 3431927B65FF7D426C1A2A5C /* libPods-SyncanoChat.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		97663CA864C2AC7AEC33BB2A /* Pods-SyncanoChat-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B04D91AE3743786B8600701 /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat-AFNetworking" */;
+			buildPhases = (
+				B205C88C1BD6AC50441C2105 /* Sources */,
+				EE7F476273DFF347C7AACD4F /* Frameworks */,
+				0A12300C12429FCDF9B32BC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SyncanoChat-AFNetworking";
+			productName = "Pods-SyncanoChat-AFNetworking";
+			productReference = 601A484A6277070D487CF429 /* libPods-SyncanoChat-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AAEEFBEE8C232CABCC00C8DA /* Pods-SyncanoChat-Mantle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B7E4181836595E41E965DA /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat-Mantle" */;
+			buildPhases = (
+				A12BA196A302D0AC10A74ECB /* Sources */,
+				88A19908E92D0958BF903B86 /* Frameworks */,
+				2E9038DD886E71503013D0AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SyncanoChat-Mantle";
+			productName = "Pods-SyncanoChat-Mantle";
+			productReference = 2A0B2363946E00F5FACC41E2 /* libPods-SyncanoChat-Mantle.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E324DE0851D197122E17B0F4 /* Pods-SyncanoChat-syncano-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F4AE07CCA2A1733812D9A4 /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat-syncano-ios" */;
+			buildPhases = (
+				342965C8C6A21413E992DD75 /* Sources */,
+				49B32B7A7D688E72233F38DA /* Frameworks */,
+				4993577AC7204FAC4D69DF50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D028823A70231B21072496A /* PBXTargetDependency */,
+				BBD6657A0EF4810A3526FB8A /* PBXTargetDependency */,
+				9AB00FA1746DF2F6F04DB185 /* PBXTargetDependency */,
+			);
+			name = "Pods-SyncanoChat-syncano-ios";
+			productName = "Pods-SyncanoChat-syncano-ios";
+			productReference = 7268122E39E541DCBACA0874 /* libPods-SyncanoChat-syncano-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F0E313A6738B5A0F3FAB4EA5 /* Pods-SyncanoChat-JSQMessagesViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A339F27E209A72098E803E /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat-JSQMessagesViewController" */;
+			buildPhases = (
+				B9E97B92A5EBE46EA7B1BB31 /* Sources */,
+				68DF9857291ECCFBDD8552A2 /* Frameworks */,
+				984ACD94036FC2E113198253 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F2914D0389F16FEC74F4965 /* PBXTargetDependency */,
+			);
+			name = "Pods-SyncanoChat-JSQMessagesViewController";
+			productName = "Pods-SyncanoChat-JSQMessagesViewController";
+			productReference = 39E6CFCC3A23128FFF84E5CA /* libPods-SyncanoChat-JSQMessagesViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F171C7E3BE7D4CC2C5FAE246 /* Pods-SyncanoChat-CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843873A2C35A58BEC9540222 /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat-CocoaAsyncSocket" */;
+			buildPhases = (
+				94937F045D5A849CE375A4BB /* Sources */,
+				D1B883E7895265B25E178231 /* Frameworks */,
+				0FFBFF2A92193EE70C11D7F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SyncanoChat-CocoaAsyncSocket";
+			productName = "Pods-SyncanoChat-CocoaAsyncSocket";
+			productReference = 8344DF51515EA17FCFDE02CF /* libPods-SyncanoChat-CocoaAsyncSocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5A76610B49F48A9F31BC30E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 87F1B1226DBAF8010E5FA55D /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C2EE6C7D66CB89C6A81DBCE;
+			productRefGroup = C95C3D77062468B8550442AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				795CCCC3DAE9736F23426627 /* Pods-SyncanoChat */,
+				97663CA864C2AC7AEC33BB2A /* Pods-SyncanoChat-AFNetworking */,
+				F171C7E3BE7D4CC2C5FAE246 /* Pods-SyncanoChat-CocoaAsyncSocket */,
+				F0E313A6738B5A0F3FAB4EA5 /* Pods-SyncanoChat-JSQMessagesViewController */,
+				2EFA2E129E18CF3B87771AD7 /* Pods-SyncanoChat-JSQSystemSoundPlayer */,
+				AAEEFBEE8C232CABCC00C8DA /* Pods-SyncanoChat-Mantle */,
+				E324DE0851D197122E17B0F4 /* Pods-SyncanoChat-syncano-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342965C8C6A21413E992DD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3975ADF7CACC2CAD9347F7C /* Pods-SyncanoChat-syncano-ios-dummy.m in Sources */,
+				35B3A1EBB679FE98D4DCE9AD /* Syncano.m in Sources */,
+				ADD15C03FF7DFE477836D0A0 /* SyncanoDateFormatter.m in Sources */,
+				F3CE33A5FC31F2783F01D20E /* SyncanoObjects.m in Sources */,
+				75EFB67333DF4EAF0945E1AD /* SyncanoObjects_Private.m in Sources */,
+				E390FEE6560A3B95AE1AC9D7 /* SyncanoParameters.m in Sources */,
+				F7E747BD23E08F8DDB8E9570 /* SyncanoParameters_APIKeys.m in Sources */,
+				B29214C3A716C99357436C2A /* SyncanoParameters_Administrators.m in Sources */,
+				95D5A662E75016E9CCB0247C /* SyncanoParameters_Collections.m in Sources */,
+				48BD53C22536DF00C3D0290C /* SyncanoParameters_Connections.m in Sources */,
+				F596B3B75E2F3750F62D2D55 /* SyncanoParameters_DataObjects.m in Sources */,
+				97C656041CA0F906E94A746C /* SyncanoParameters_Folders.m in Sources */,
+				74F793090BEB36533BFDB460 /* SyncanoParameters_Notifications.m in Sources */,
+				91B208ABD316C18ED0910455 /* SyncanoParameters_PermissionRoles.m in Sources */,
+				0662A858DF169A644D66FA6F /* SyncanoParameters_Projects.m in Sources */,
+				3E43FD67FC3607537DA4EF64 /* SyncanoParameters_Subscriptions.m in Sources */,
+				F6E5F3BDF3836D499895D73D /* SyncanoParameters_Users.m in Sources */,
+				A7B1E03069CA56E655F11D98 /* SyncanoReachability.m in Sources */,
+				FD75E24044ED9F2DD25E837D /* SyncanoResponse.m in Sources */,
+				CB33D145FCCAB99F781D48C2 /* SyncanoResponse_APIKeys.m in Sources */,
+				57FDECD5FD6497DB1C6DB9FF /* SyncanoResponse_Administrators.m in Sources */,
+				F373DC16B77681EF07020105 /* SyncanoResponse_Collections.m in Sources */,
+				17F6411727177BB6865465BC /* SyncanoResponse_Connections.m in Sources */,
+				9F234C8FEE259C1E88ECF2D2 /* SyncanoResponse_DataObjects.m in Sources */,
+				257006529C030526E3395EE3 /* SyncanoResponse_Folders.m in Sources */,
+				0959FC44D6CF063054B18F98 /* SyncanoResponse_Notifications.m in Sources */,
+				6E14BF673C67DF83CC305CB8 /* SyncanoResponse_PermissionRoles.m in Sources */,
+				4F45B09130D5003346054A76 /* SyncanoResponse_Projects.m in Sources */,
+				2AE08AE368DDE864ACC68FAA /* SyncanoResponse_Subscriptions.m in Sources */,
+				D065FDACCA8057FC9E88CF57 /* SyncanoResponse_Users.m in Sources */,
+				2EB84138882F8D419A053FDF /* SyncanoSyncServer.m in Sources */,
+				287944A354EF6BDBEEBD73A3 /* syncano-ios-library-Prefix.pch in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41DCC48E0D677E4C1608803D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B9F832BB08318DA7C7068D /* JSQSystemSoundPlayer.m in Sources */,
+				2B4480CC0D44E6972C893B7A /* Pods-SyncanoChat-JSQSystemSoundPlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94937F045D5A849CE375A4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7F2A3EC19DDF58C14F0BCB /* AsyncSocket.m in Sources */,
+				E11394817C055709018A8969 /* AsyncUdpSocket.m in Sources */,
+				D372BDA8D8C9DBB8B354E89F /* GCDAsyncSocket.m in Sources */,
+				CE67E11E36B57D36D280FB58 /* GCDAsyncUdpSocket.m in Sources */,
+				79B018F45A868B0D6DCA2658 /* Pods-SyncanoChat-CocoaAsyncSocket-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99532D323ED28EF23C225B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD593CA9442548A70203D85F /* Pods-SyncanoChat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12BA196A302D0AC10A74ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0826627AF02D77B1E5E6B186 /* EXTRuntimeExtensions.m in Sources */,
+				2C51577CFCE2AE9C4AAEBD64 /* EXTScope.m in Sources */,
+				65DA1DA93B6B46D06DB5B263 /* MTLJSONAdapter.m in Sources */,
+				76C848E6C040BCD3D0CEB59B /* MTLManagedObjectAdapter.m in Sources */,
+				9EEA3BEA6CB38168EB9CE894 /* MTLModel+NSCoding.m in Sources */,
+				A24E8323C3AA53E801F1A938 /* MTLModel.m in Sources */,
+				65F2CC17D9D7C3E9872D9B5F /* MTLReflection.m in Sources */,
+				C3E051C22CDFD3BDE9B5B0BC /* MTLValueTransformer.m in Sources */,
+				E0818055080F4679C8CB3FF0 /* NSArray+MTLManipulationAdditions.m in Sources */,
+				07C79919E21DAD71F01478F6 /* NSDictionary+MTLManipulationAdditions.m in Sources */,
+				59016534887112035D07A1FB /* NSError+MTLModelException.m in Sources */,
+				AF23084C7B162E3FAAFCF9B8 /* NSObject+MTLComparisonAdditions.m in Sources */,
+				29A656D14FD1EBF7EFF02B7F /* NSValueTransformer+MTLInversionAdditions.m in Sources */,
+				D82838A2F2AA439401E80E7C /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
+				011B573784D1291249277162 /* Pods-SyncanoChat-Mantle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B205C88C1BD6AC50441C2105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946F3F78ABAF941573DFC798 /* AFHTTPRequestOperation.m in Sources */,
+				FFDF05EEC173516DCBFB9D99 /* AFHTTPRequestOperationManager.m in Sources */,
+				7CD844090FDC5D10D2AD3BCA /* AFHTTPSessionManager.m in Sources */,
+				CA0BCE1255DD990CE17CDAC4 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				E3B59B0C05B0B228F136C821 /* AFNetworkReachabilityManager.m in Sources */,
+				86153F65056167ABD32E5551 /* AFSecurityPolicy.m in Sources */,
+				01E638977DE14EDF1AEDF153 /* AFURLConnectionOperation.m in Sources */,
+				AFE722AD22FC07037ABACEA7 /* AFURLRequestSerialization.m in Sources */,
+				B92A7F428F8D5E2FA4C3D24F /* AFURLResponseSerialization.m in Sources */,
+				2F331EDC6177C3B85843C97E /* AFURLSessionManager.m in Sources */,
+				F27DB70DD9A6BBEA8F789B7F /* Pods-SyncanoChat-AFNetworking-dummy.m in Sources */,
+				60A3D0CBA0B31CCED00D055B /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				ADAD61D2CA9A4AC53230DEEF /* UIAlertView+AFNetworking.m in Sources */,
+				9076541EABB71B3BF11FA35F /* UIButton+AFNetworking.m in Sources */,
+				2029CCC6A0ADDB02FB57CDEF /* UIImageView+AFNetworking.m in Sources */,
+				1E63043C43C6D5C18DF90B9B /* UIProgressView+AFNetworking.m in Sources */,
+				4507589B519C75EE161F8D8F /* UIRefreshControl+AFNetworking.m in Sources */,
+				7B0DFB49E26B3C715A637261 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E97B92A5EBE46EA7B1BB31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6B8CB14886F6BBD8698820 /* JSQLocationMediaItem.m in Sources */,
+				007091E3AB07B6BAB60055B9 /* JSQMediaItem.m in Sources */,
+				F53F9846EFE2AE58F1425469 /* JSQMessage.m in Sources */,
+				18FA49B01DF271E951F74E89 /* JSQMessagesAvatarImage.m in Sources */,
+				9FD0603E6106A211E1A0FD12 /* JSQMessagesAvatarImageFactory.m in Sources */,
+				A650659BDD7BFA9AB95D5FE8 /* JSQMessagesBubbleImage.m in Sources */,
+				65BE8D1C30607BAFE433E099 /* JSQMessagesBubbleImageFactory.m in Sources */,
+				7C474BFE6D167E367CFE059B /* JSQMessagesCellTextView.m in Sources */,
+				39778D771D059CC948D24A68 /* JSQMessagesCollectionView.m in Sources */,
+				E0C0F47B1C2FB289A39CF67D /* JSQMessagesCollectionViewCell.m in Sources */,
+				9BEFAB1ED68B87E64A6F2227 /* JSQMessagesCollectionViewCellIncoming.m in Sources */,
+				7A754747BCD4B714FC15870A /* JSQMessagesCollectionViewCellOutgoing.m in Sources */,
+				721E8ECE1EEA5C9487E1E2D8 /* JSQMessagesCollectionViewFlowLayout.m in Sources */,
+				E281B13EE62BBD12697F5754 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.m in Sources */,
+				7A059BF7795221562BD0E4F3 /* JSQMessagesCollectionViewLayoutAttributes.m in Sources */,
+				344460F752106D1947A1FEB5 /* JSQMessagesComposerTextView.m in Sources */,
+				0C30FD52E14606CEAA322BDB /* JSQMessagesInputToolbar.m in Sources */,
+				1CD7DBA3B2850671042951AE /* JSQMessagesKeyboardController.m in Sources */,
+				4285A4FF87F591909EDD72F4 /* JSQMessagesLabel.m in Sources */,
+				380F14B513FB962D0FFECE5F /* JSQMessagesLoadEarlierHeaderView.m in Sources */,
+				5CDD7D7C14A70F7D8A2FC258 /* JSQMessagesMediaPlaceholderView.m in Sources */,
+				8297E05DD130CDA63C690BC6 /* JSQMessagesMediaViewBubbleImageMasker.m in Sources */,
+				3ADE87FE8187FA0EDD8BB04C /* JSQMessagesTimestampFormatter.m in Sources */,
+				7B27178BE86FB240B85942D6 /* JSQMessagesToolbarButtonFactory.m in Sources */,
+				EC03A5C296E1B838308DA122 /* JSQMessagesToolbarContentView.m in Sources */,
+				EB23F5BBFA9C9A9885B84CA1 /* JSQMessagesTypingIndicatorFooterView.m in Sources */,
+				194A5AC5A63FA708F64DB17F /* JSQMessagesViewController.m in Sources */,
+				85577EE13D062813314BDFAE /* JSQPhotoMediaItem.m in Sources */,
+				8761A4E7D9F91EEAF867691E /* JSQSystemSoundPlayer+JSQMessages.m in Sources */,
+				E505D211993DB479FC77EF5C /* JSQVideoMediaItem.m in Sources */,
+				D7EEE8BD28F16FE536E0145D /* NSBundle+JSQMessages.m in Sources */,
+				D677D61CFBD76F3BE7A4BFD0 /* NSString+JSQMessages.m in Sources */,
+				BBB43E64CA40A0FD82824BFD /* Pods-SyncanoChat-JSQMessagesViewController-dummy.m in Sources */,
+				41AD78B70F03B5863EF72F50 /* UIColor+JSQMessages.m in Sources */,
+				BDFC44375DA289F6CCA3C6CA /* UIDevice+JSQMessages.m in Sources */,
+				FF89BEEC3BBE81A310B466D7 /* UIImage+JSQMessages.m in Sources */,
+				11C44DBC7BF456801DCABEC9 /* UIView+JSQMessages.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D028823A70231B21072496A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SyncanoChat-AFNetworking";
+			target = 97663CA864C2AC7AEC33BB2A /* Pods-SyncanoChat-AFNetworking */;
+			targetProxy = 5E84A0971A62560D346CEE08 /* PBXContainerItemProxy */;
+		};
+		16A9C67B730D5653ED532836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SyncanoChat-Mantle";
+			target = AAEEFBEE8C232CABCC00C8DA /* Pods-SyncanoChat-Mantle */;
+			targetProxy = F9192353A356682EE6E7C4D7 /* PBXContainerItemProxy */;
+		};
+		7F2914D0389F16FEC74F4965 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SyncanoChat-JSQSystemSoundPlayer";
+			target = 2EFA2E129E18CF3B87771AD7 /* Pods-SyncanoChat-JSQSystemSoundPlayer */;
+			targetProxy = E3F03A31676B5799C8E999B0 /* PBXContainerItemProxy */;
+		};
+		8DE0D91106195EC5C29B668D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SyncanoChat-AFNetworking";
+			target = 97663CA864C2AC7AEC33BB2A /* Pods-SyncanoChat-AFNetworking */;
+			targetProxy = 4732AB53A8AE1ABF194C185C /* PBXContainerItemProxy */;
+		};
+		943B298F91947DF3B8FE6CC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SyncanoChat-syncano-ios";
+			target = E324DE0851D197122E17B0F4 /* Pods-SyncanoChat-syncano-ios */;
+			targetProxy = 3C0B7233EA63B1AF9280D2F0 /* PBXContainerItemProxy */;
+		};
+		9AB00FA1746DF2F6F04DB185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SyncanoChat-Mantle";
+			target = AAEEFBEE8C232CABCC00C8DA /* Pods-SyncanoChat-Mantle */;
+			targetProxy = ACFEC81BB4F9F874B08A6FC3 /* PBXContainerItemProxy */;
+		};
+		BBD6657A0EF4810A3526FB8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SyncanoChat-CocoaAsyncSocket";
+			target = F171C7E3BE7D4CC2C5FAE246 /* Pods-SyncanoChat-CocoaAsyncSocket */;
+			targetProxy = 579EB1CD8CAB1EDA35A99B2A /* PBXContainerItemProxy */;
+		};
+		D7E0F7D3E21F49A39A14CA16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SyncanoChat-JSQSystemSoundPlayer";
+			target = 2EFA2E129E18CF3B87771AD7 /* Pods-SyncanoChat-JSQSystemSoundPlayer */;
+			targetProxy = 0207A5CDABF8AD1920B30E51 /* PBXContainerItemProxy */;
+		};
+		DC7FD281737C2128FBD443FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SyncanoChat-JSQMessagesViewController";
+			target = F0E313A6738B5A0F3FAB4EA5 /* Pods-SyncanoChat-JSQMessagesViewController */;
+			targetProxy = 6EA28192902DCD665F9DC560 /* PBXContainerItemProxy */;
+		};
+		E9F7146840C8E5A284F73D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SyncanoChat-CocoaAsyncSocket";
+			target = F171C7E3BE7D4CC2C5FAE246 /* Pods-SyncanoChat-CocoaAsyncSocket */;
+			targetProxy = CBABDC81960757CA86242A8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20057292EE48BFFD353CA815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DAD3B1AC0CA04DB40D6D3B9 /* Pods-SyncanoChat.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		50913995B28CD61B2300E782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48C62F2907FF09A21E6289A /* Pods-SyncanoChat-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SyncanoChat-AFNetworking/Pods-SyncanoChat-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7F3CFC3A857F2EFFD355A3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785C0D83BEFE68B69E9734DF /* Pods-SyncanoChat-Mantle-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SyncanoChat-Mantle/Pods-SyncanoChat-Mantle-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		843AEAC1EA6CEE1B1FA13304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB187495247B7D3196671B9 /* Pods-SyncanoChat-CocoaAsyncSocket-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SyncanoChat-CocoaAsyncSocket/Pods-SyncanoChat-CocoaAsyncSocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		85DE03ECCD01818BB618D7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD03604D6EBB6BE7FBE6E7E /* Pods-SyncanoChat.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		86061411BD4C369F0A1D4685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785C0D83BEFE68B69E9734DF /* Pods-SyncanoChat-Mantle-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SyncanoChat-Mantle/Pods-SyncanoChat-Mantle-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8DC22245114B4926415EDB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6109D45FEC64908D4ACC9E /* Pods-SyncanoChat-syncano-ios-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SyncanoChat-syncano-ios/Pods-SyncanoChat-syncano-ios-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		95CBA9FFCAEDC46FD30315B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6109D45FEC64908D4ACC9E /* Pods-SyncanoChat-syncano-ios-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SyncanoChat-syncano-ios/Pods-SyncanoChat-syncano-ios-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A68E080A5A4AB135BC57848D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48C62F2907FF09A21E6289A /* Pods-SyncanoChat-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SyncanoChat-AFNetworking/Pods-SyncanoChat-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AC52F05DE5CA497B67042EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B64B6207393D3ED363C9473 /* Pods-SyncanoChat-JSQMessagesViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SyncanoChat-JSQMessagesViewController/Pods-SyncanoChat-JSQMessagesViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B53FE75288EBFB4AA6E9A9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07815EDB3673D5DCB667BDC /* Pods-SyncanoChat-JSQSystemSoundPlayer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SyncanoChat-JSQSystemSoundPlayer/Pods-SyncanoChat-JSQSystemSoundPlayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BF1E30901230D45B4F2E49C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB187495247B7D3196671B9 /* Pods-SyncanoChat-CocoaAsyncSocket-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SyncanoChat-CocoaAsyncSocket/Pods-SyncanoChat-CocoaAsyncSocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EB5C503980080111C532AFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED2FA086B7E3D269AD4D0557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07815EDB3673D5DCB667BDC /* Pods-SyncanoChat-JSQSystemSoundPlayer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SyncanoChat-JSQSystemSoundPlayer/Pods-SyncanoChat-JSQSystemSoundPlayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EDA0F0991DC0909CD7E9790C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FC6B81D0045183CBA1113218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B64B6207393D3ED363C9473 /* Pods-SyncanoChat-JSQMessagesViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SyncanoChat-JSQMessagesViewController/Pods-SyncanoChat-JSQMessagesViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16987BD03152F84FF4486DE3 /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat-JSQSystemSoundPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53FE75288EBFB4AA6E9A9FE /* Debug */,
+				ED2FA086B7E3D269AD4D0557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F4AE07CCA2A1733812D9A4 /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat-syncano-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CBA9FFCAEDC46FD30315B4 /* Debug */,
+				8DC22245114B4926415EDB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50351DBB9920DF0418571A21 /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DE03ECCD01818BB618D7D8 /* Debug */,
+				20057292EE48BFFD353CA815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B04D91AE3743786B8600701 /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50913995B28CD61B2300E782 /* Debug */,
+				A68E080A5A4AB135BC57848D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843873A2C35A58BEC9540222 /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat-CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843AEAC1EA6CEE1B1FA13304 /* Debug */,
+				BF1E30901230D45B4F2E49C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F1B1226DBAF8010E5FA55D /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA0F0991DC0909CD7E9790C /* Debug */,
+				EB5C503980080111C532AFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B7E4181836595E41E965DA /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat-Mantle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86061411BD4C369F0A1D4685 /* Debug */,
+				7F3CFC3A857F2EFFD355A3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A339F27E209A72098E803E /* Build configuration list for PBXNativeTarget "Pods-SyncanoChat-JSQMessagesViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC52F05DE5CA497B67042EA5 /* Debug */,
+				FC6B81D0045183CBA1113218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5A76610B49F48A9F31BC30E /* Project object */;
+}

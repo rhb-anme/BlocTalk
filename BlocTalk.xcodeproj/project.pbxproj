@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFFD90A0EA6EA7BB0217636E /* libPods-SyncanoChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83100E3ECD5A4ED38E57D2A8 /* libPods-SyncanoChat.a */; };
+		F5D068C01AFFD9D3003A96CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D068BF1AFFD9D3003A96CB /* AppDelegate.swift */; };
+		F5D068C31AFFD9D3003A96CB /* SyncanoChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5D068C11AFFD9D3003A96CB /* SyncanoChat.xcdatamodeld */; };
+		F5D068C51AFFD9D3003A96CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D068C41AFFD9D3003A96CB /* ViewController.swift */; };
+		F5D068C81AFFD9D3003A96CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D068C61AFFD9D3003A96CB /* Main.storyboard */; };
+		F5D068CA1AFFD9D3003A96CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D068C91AFFD9D3003A96CB /* Images.xcassets */; };
+		F5D068CD1AFFD9D3003A96CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D068CB1AFFD9D3003A96CB /* LaunchScreen.xib */; };
+		F5D068D91AFFD9D3003A96CB /* BlocTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D068D81AFFD9D3003A96CB /* BlocTalkTests.swift */; };
+		F5E2A3951AFFEB0C00099A92 /* libPods-SyncanoChat-AFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E2A3941AFFEB0C00099A92 /* libPods-SyncanoChat-AFNetworking.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D068D31AFFD9D3003A96CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D068B21AFFD9D2003A96CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D068B91AFFD9D2003A96CB;
+			remoteInfo = SyncanoChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		244E49C8B5563CD7AD0CBB79 /* Pods-SyncanoChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncanoChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-SyncanoChat/Pods-SyncanoChat.release.xcconfig"; sourceTree = "<group>"; };
+		2DA785FF15DE8B82A45BF820 /* Pods-SyncanoChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncanoChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SyncanoChat/Pods-SyncanoChat.debug.xcconfig"; sourceTree = "<group>"; };
+		83100E3ECD5A4ED38E57D2A8 /* libPods-SyncanoChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SyncanoChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55513B31AFFDBCA00FBC6A8 /* chatBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chatBridgingHeader.h; path = ../chatBridgingHeader.h; sourceTree = "<group>"; };
+		F5D068BA1AFFD9D2003A96CB /* BlocTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlocTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D068BE1AFFD9D3003A96CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D068BF1AFFD9D3003A96CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5D068C21AFFD9D3003A96CB /* SyncanoChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SyncanoChat.xcdatamodel; sourceTree = "<group>"; };
+		F5D068C41AFFD9D3003A96CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5D068C71AFFD9D3003A96CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5D068C91AFFD9D3003A96CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5D068CC1AFFD9D3003A96CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F5D068D21AFFD9D3003A96CB /* BlocTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D068D71AFFD9D3003A96CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D068D81AFFD9D3003A96CB /* BlocTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocTalkTests.swift; sourceTree = "<group>"; };
+		F5E2A3941AFFEB0C00099A92 /* libPods-SyncanoChat-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-SyncanoChat-AFNetworking.a"; path = "Pods/../build/Debug-iphoneos/libPods-SyncanoChat-AFNetworking.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D068B71AFFD9D2003A96CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E2A3951AFFEB0C00099A92 /* libPods-SyncanoChat-AFNetworking.a in Frameworks */,
+				BFFD90A0EA6EA7BB0217636E /* libPods-SyncanoChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D068CF1AFFD9D3003A96CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33AE65FEBA0E3076F6F92B44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5E2A3941AFFEB0C00099A92 /* libPods-SyncanoChat-AFNetworking.a */,
+				83100E3ECD5A4ED38E57D2A8 /* libPods-SyncanoChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3095131247982BC69DE598E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DA785FF15DE8B82A45BF820 /* Pods-SyncanoChat.debug.xcconfig */,
+				244E49C8B5563CD7AD0CBB79 /* Pods-SyncanoChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5D068B11AFFD9D2003A96CB = {
+			isa = PBXGroup;
+			children = (
+				F5D068BC1AFFD9D2003A96CB /* BlocTalk */,
+				F5D068D51AFFD9D3003A96CB /* BlocTalkTests */,
+				F5D068BB1AFFD9D2003A96CB /* Products */,
+				D3095131247982BC69DE598E /* Pods */,
+				33AE65FEBA0E3076F6F92B44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D068BB1AFFD9D2003A96CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D068BA1AFFD9D2003A96CB /* BlocTalk.app */,
+				F5D068D21AFFD9D3003A96CB /* BlocTalkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D068BC1AFFD9D2003A96CB /* BlocTalk */ = {
+			isa = PBXGroup;
+			children = (
+				F5D068BF1AFFD9D3003A96CB /* AppDelegate.swift */,
+				F5D068C41AFFD9D3003A96CB /* ViewController.swift */,
+				F5D068C61AFFD9D3003A96CB /* Main.storyboard */,
+				F5D068C91AFFD9D3003A96CB /* Images.xcassets */,
+				F5D068CB1AFFD9D3003A96CB /* LaunchScreen.xib */,
+				F55513B31AFFDBCA00FBC6A8 /* chatBridgingHeader.h */,
+				F5D068C11AFFD9D3003A96CB /* SyncanoChat.xcdatamodeld */,
+				F5D068BD1AFFD9D2003A96CB /* Supporting Files */,
+			);
+			name = BlocTalk;
+			path = SyncanoChat;
+			sourceTree = "<group>";
+		};
+		F5D068BD1AFFD9D2003A96CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5D068BE1AFFD9D3003A96CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D068D51AFFD9D3003A96CB /* BlocTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D068D81AFFD9D3003A96CB /* BlocTalkTests.swift */,
+				F5D068D61AFFD9D3003A96CB /* Supporting Files */,
+			);
+			name = BlocTalkTests;
+			path = SyncanoChatTests;
+			sourceTree = "<group>";
+		};
+		F5D068D61AFFD9D3003A96CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5D068D71AFFD9D3003A96CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D068B91AFFD9D2003A96CB /* BlocTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D068DC1AFFD9D3003A96CB /* Build configuration list for PBXNativeTarget "BlocTalk" */;
+			buildPhases = (
+				632E43E9F33491BA705A81BC /* Check Pods Manifest.lock */,
+				F5D068B61AFFD9D2003A96CB /* Sources */,
+				F5D068B71AFFD9D2003A96CB /* Frameworks */,
+				F5D068B81AFFD9D2003A96CB /* Resources */,
+				C7D3021765FAF9E517D3150E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlocTalk;
+			productName = SyncanoChat;
+			productReference = F5D068BA1AFFD9D2003A96CB /* BlocTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5D068D11AFFD9D3003A96CB /* BlocTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D068DF1AFFD9D3003A96CB /* Build configuration list for PBXNativeTarget "BlocTalkTests" */;
+			buildPhases = (
+				F5D068CE1AFFD9D3003A96CB /* Sources */,
+				F5D068CF1AFFD9D3003A96CB /* Frameworks */,
+				F5D068D01AFFD9D3003A96CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D068D41AFFD9D3003A96CB /* PBXTargetDependency */,
+			);
+			name = BlocTalkTests;
+			productName = SyncanoChatTests;
+			productReference = F5D068D21AFFD9D3003A96CB /* BlocTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D068B21AFFD9D2003A96CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = artchiteq;
+				TargetAttributes = {
+					F5D068B91AFFD9D2003A96CB = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F5D068D11AFFD9D3003A96CB = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F5D068B91AFFD9D2003A96CB;
+					};
+				};
+			};
+			buildConfigurationList = F5D068B51AFFD9D2003A96CB /* Build configuration list for PBXProject "BlocTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5D068B11AFFD9D2003A96CB;
+			productRefGroup = F5D068BB1AFFD9D2003A96CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D068B91AFFD9D2003A96CB /* BlocTalk */,
+				F5D068D11AFFD9D3003A96CB /* BlocTalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D068B81AFFD9D2003A96CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D068C81AFFD9D3003A96CB /* Main.storyboard in Resources */,
+				F5D068CD1AFFD9D3003A96CB /* LaunchScreen.xib in Resources */,
+				F5D068CA1AFFD9D3003A96CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D068D01AFFD9D3003A96CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		632E43E9F33491BA705A81BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D3021765FAF9E517D3150E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SyncanoChat/Pods-SyncanoChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D068B61AFFD9D2003A96CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D068C51AFFD9D3003A96CB /* ViewController.swift in Sources */,
+				F5D068C01AFFD9D3003A96CB /* AppDelegate.swift in Sources */,
+				F5D068C31AFFD9D3003A96CB /* SyncanoChat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D068CE1AFFD9D3003A96CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D068D91AFFD9D3003A96CB /* BlocTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5D068D41AFFD9D3003A96CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D068B91AFFD9D2003A96CB /* BlocTalk */;
+			targetProxy = F5D068D31AFFD9D3003A96CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5D068C61AFFD9D3003A96CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D068C71AFFD9D3003A96CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5D068CB1AFFD9D3003A96CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D068CC1AFFD9D3003A96CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5D068DA1AFFD9D3003A96CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5D068DB1AFFD9D3003A96CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5D068DD1AFFD9D3003A96CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA785FF15DE8B82A45BF820 /* Pods-SyncanoChat.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SyncanoChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = BlocTalk;
+				SWIFT_OBJC_BRIDGING_HEADER = chatBridgingHeader.h;
+				USER_HEADER_SEARCH_PATHS = "Pods/**/**";
+			};
+			name = Debug;
+		};
+		F5D068DE1AFFD9D3003A96CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244E49C8B5563CD7AD0CBB79 /* Pods-SyncanoChat.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SyncanoChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = BlocTalk;
+				SWIFT_OBJC_BRIDGING_HEADER = chatBridgingHeader.h;
+				USER_HEADER_SEARCH_PATHS = "Pods/**/**";
+			};
+			name = Release;
+		};
+		F5D068E01AFFD9D3003A96CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SyncanoChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = BlocTalkTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyncanoChat.app/SyncanoChat";
+			};
+			name = Debug;
+		};
+		F5D068E11AFFD9D3003A96CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SyncanoChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = BlocTalkTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyncanoChat.app/SyncanoChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D068B51AFFD9D2003A96CB /* Build configuration list for PBXProject "BlocTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D068DA1AFFD9D3003A96CB /* Debug */,
+				F5D068DB1AFFD9D3003A96CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D068DC1AFFD9D3003A96CB /* Build configuration list for PBXNativeTarget "BlocTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D068DD1AFFD9D3003A96CB /* Debug */,
+				F5D068DE1AFFD9D3003A96CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D068DF1AFFD9D3003A96CB /* Build configuration list for PBXNativeTarget "BlocTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D068E01AFFD9D3003A96CB /* Debug */,
+				F5D068E11AFFD9D3003A96CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5D068C11AFFD9D3003A96CB /* SyncanoChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5D068C21AFFD9D3003A96CB /* SyncanoChat.xcdatamodel */,
+			);
+			currentVersion = F5D068C21AFFD9D3003A96CB /* SyncanoChat.xcdatamodel */;
+			path = SyncanoChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5D068B21AFFD9D2003A96CB /* Project object */;
+}
